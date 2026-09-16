@@ -1,0 +1,72 @@
+{
+  "Landing": {
+    "badge": "Έλεγχος pull request με τεχνητή νοημοσύνη",
+    "title": "Έλεγχος κώδικα με AI για το GitHub",
+    "subtitle": "Εντοπίστε σφάλματα, προβλήματα ασφάλειας και απόδοσης πριν φτάσουν στην παραγωγή.",
+    "connectGithub": "Σύνδεση με GitHub",
+    "categoryBugs": "Σφάλματα",
+    "categorySecurity": "Ασφάλεια",
+    "categoryPerformance": "Απόδοση",
+    "categoryCodeQuality": "Ποιότητα κώδικα",
+    "categoryMissingTests": "Ελλείπη tests",
+    "footerTagline": "Το Calytrix εξετάζει τα diffs των pull requests με το Claude. Δεν εκτελεί ποτέ τον κώδικά σας.",
+    "footerCredit": "Δημιουργήθηκε από τον Alperen Yavuz"
+  },
+  "Nav": { "signOut": "Αποσύνδεση" },
+  "Language": { "label": "Γλώσσα" },
+  "Dashboard": {
+    "title": "Τα αποθετήριά σας",
+    "subtitle": "Επιλέξτε ένα αποθετήριο για να ελέγξετε τα pull requests του.",
+    "empty": "Δεν βρέθηκαν αποθετήρια στον λογαριασμό σας στο GitHub.",
+    "private": "Ιδιωτικό"
+  },
+  "Repo": {
+    "back": "Όλα τα αποθετήρια",
+    "subtitle": "Επιλέξτε ένα pull request για έλεγχο.",
+    "empty": "Δεν βρέθηκαν pull requests σε αυτό το αποθετήριο.",
+    "updatedBy": "από {author} · ενημερώθηκε {time}"
+  },
+  "Pull": {
+    "back": "Όλα τα pull requests",
+    "mergeInfo": "Ο/Η {author} θέλει να συγχωνεύσει το <head>{headRef}</head> στο <base>{baseRef}</base>",
+    "viewOnGithub": "Προβολή στο GitHub",
+    "staleNotice": "Αυτό το pull request έχει νέα commits από τον τελευταίο έλεγχο. Κάντε νέο έλεγχο για ενημερωμένα αποτελέσματα."
+  },
+  "Review": {
+    "lastReviewedAt": "Τελευταίος έλεγχος {time}",
+    "summaryCount": "{count, plural, =0 {Δεν βρέθηκαν σημαντικά προβλήματα} one {Βρέθηκε # πρόβλημα} other {Βρέθηκαν # προβλήματα}}",
+    "notReviewed": "Αυτό το pull request δεν έχει ελεγχθεί ακόμα.",
+    "run": "Έναρξη ελέγχου AI",
+    "rerun": "Νέος έλεγχος",
+    "running": "Γίνεται έλεγχος…",
+    "noProblems": "Δεν βρέθηκαν σημαντικά προβλήματα σε αυτό το pull request.",
+    "whyItMatters": "Γιατί έχει σημασία",
+    "suggestedFix": "Προτεινόμενη διόρθωση"
+  },
+  "Severity": { "CRITICAL": "Κρίσιμη", "HIGH": "Υψηλή", "MEDIUM": "Μεσαία", "LOW": "Χαμηλή" },
+  "Category": {
+    "BUG": "Σφάλμα",
+    "SECURITY": "Ασφάλεια",
+    "PERFORMANCE": "Απόδοση",
+    "CODE_QUALITY": "Ποιότητα κώδικα",
+    "MISSING_TESTS": "Ελλείπη tests"
+  },
+  "State": { "open": "ανοιχτό", "merged": "συγχωνευμένο", "closed": "κλειστό" },
+  "Errors": {
+    "title": "Κάτι πήγε στραβά",
+    "UNAUTHORIZED": "Πρέπει να συνδεθείτε για να το κάνετε αυτό.",
+    "GITHUB_AUTH_ERROR": "Η σύνδεσή σας με το GitHub δεν είναι πλέον έγκυρη. Συνδεθείτε ξανά.",
+    "GITHUB_RATE_LIMIT": "Το όριο αιτημάτων του GitHub API έχει εξαντληθεί. Δοκιμάστε ξανά σε λίγα λεπτά.",
+    "GITHUB_NOT_FOUND": "Το αποθετήριο ή το pull request δεν βρέθηκε.",
+    "GITHUB_API_ERROR": "Δεν ήταν δυνατή η σύνδεση με το GitHub. Δοκιμάστε ξανά.",
+    "CLAUDE_API_ERROR": "Η υπηρεσία ελέγχου AI δεν είναι διαθέσιμη αυτή τη στιγμή. Δοκιμάστε ξανά.",
+    "CLAUDE_INVALID_RESPONSE": "Ο έλεγχος AI δεν επέστρεψε έγκυρο αποτέλεσμα. Δοκιμάστε ξανά.",
+    "DIFF_TOO_LARGE": "Αυτό το pull request είναι πολύ μεγάλο για έλεγχο.",
+    "DIFF_EMPTY": "Δεν βρέθηκαν αλλαγές κώδικα προς έλεγχο σε αυτό το pull request.",
+    "DB_ERROR": "Δεν ήταν δυνατή η σύνδεση με τη βάση δεδομένων. Δοκιμάστε ξανά.",
+    "VALIDATION_ERROR": "Μη έγκυρο αίτημα.",
+    "NOT_FOUND": "Δεν βρέθηκε.",
+    "UNKNOWN": "Κάτι πήγε στραβά. Δοκιμάστε ξανά.",
+    "NETWORK_ERROR": "Δεν ήταν δυνατή η σύνδεση με τον διακομιστή. Δοκιμάστε ξανά."
+  }
+}

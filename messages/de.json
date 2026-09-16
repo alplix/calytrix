@@ -1,0 +1,72 @@
+{
+  "Landing": {
+    "badge": "KI-gestützte Pull-Request-Prüfung",
+    "title": "KI-Code-Review für GitHub",
+    "subtitle": "Findet Bugs, Sicherheitslücken und Performance-Probleme, bevor sie in Produktion gehen.",
+    "connectGithub": "Mit GitHub verbinden",
+    "categoryBugs": "Bugs",
+    "categorySecurity": "Sicherheit",
+    "categoryPerformance": "Performance",
+    "categoryCodeQuality": "Codequalität",
+    "categoryMissingTests": "Fehlende Tests",
+    "footerTagline": "Calytrix prüft Pull-Request-Diffs mit Claude. Ihr Code wird niemals ausgeführt.",
+    "footerCredit": "Entwickelt von Alperen Yavuz"
+  },
+  "Nav": { "signOut": "Abmelden" },
+  "Language": { "label": "Sprache" },
+  "Dashboard": {
+    "title": "Ihre Repositories",
+    "subtitle": "Wählen Sie ein Repository, um dessen Pull Requests zu prüfen.",
+    "empty": "In Ihrem GitHub-Konto wurden keine Repositories gefunden.",
+    "private": "Privat"
+  },
+  "Repo": {
+    "back": "Alle Repositories",
+    "subtitle": "Wählen Sie einen Pull Request zur Überprüfung aus.",
+    "empty": "In diesem Repository wurden keine Pull Requests gefunden.",
+    "updatedBy": "von {author} · aktualisiert {time}"
+  },
+  "Pull": {
+    "back": "Alle Pull Requests",
+    "mergeInfo": "{author} möchte <head>{headRef}</head> in <base>{baseRef}</base> mergen",
+    "viewOnGithub": "Auf GitHub ansehen",
+    "staleNotice": "Dieser Pull Request hat seit der letzten Prüfung neue Commits. Prüfen Sie erneut für aktuelle Ergebnisse."
+  },
+  "Review": {
+    "lastReviewedAt": "Zuletzt geprüft {time}",
+    "summaryCount": "{count, plural, =0 {Keine nennenswerten Probleme gefunden} one {# Problem gefunden} other {# Probleme gefunden}}",
+    "notReviewed": "Dieser Pull Request wurde noch nicht geprüft.",
+    "run": "KI-Review starten",
+    "rerun": "Erneut prüfen",
+    "running": "Wird geprüft…",
+    "noProblems": "In diesem Pull Request wurden keine nennenswerten Probleme gefunden.",
+    "whyItMatters": "Warum das wichtig ist",
+    "suggestedFix": "Vorgeschlagene Lösung"
+  },
+  "Severity": { "CRITICAL": "Kritisch", "HIGH": "Hoch", "MEDIUM": "Mittel", "LOW": "Niedrig" },
+  "Category": {
+    "BUG": "Bug",
+    "SECURITY": "Sicherheit",
+    "PERFORMANCE": "Performance",
+    "CODE_QUALITY": "Codequalität",
+    "MISSING_TESTS": "Fehlende Tests"
+  },
+  "State": { "open": "offen", "merged": "gemergt", "closed": "geschlossen" },
+  "Errors": {
+    "title": "Etwas ist schiefgelaufen",
+    "UNAUTHORIZED": "Sie müssen sich anmelden, um das zu tun.",
+    "GITHUB_AUTH_ERROR": "Ihre GitHub-Verbindung ist nicht mehr gültig. Bitte melden Sie sich erneut an.",
+    "GITHUB_RATE_LIMIT": "GitHub-API-Limit erreicht. Bitte versuchen Sie es in ein paar Minuten erneut.",
+    "GITHUB_NOT_FOUND": "Das angeforderte Repository oder der Pull Request wurde nicht gefunden.",
+    "GITHUB_API_ERROR": "GitHub konnte nicht erreicht werden. Bitte versuchen Sie es erneut.",
+    "CLAUDE_API_ERROR": "Der KI-Review-Dienst ist derzeit nicht verfügbar. Bitte versuchen Sie es erneut.",
+    "CLAUDE_INVALID_RESPONSE": "Das KI-Review lieferte kein gültiges Ergebnis. Bitte versuchen Sie es erneut.",
+    "DIFF_TOO_LARGE": "Dieser Pull Request ist zu groß für eine Prüfung.",
+    "DIFF_EMPTY": "In diesem Pull Request wurden keine überprüfbaren Codeänderungen gefunden.",
+    "DB_ERROR": "Die Datenbank konnte nicht erreicht werden. Bitte versuchen Sie es erneut.",
+    "VALIDATION_ERROR": "Ungültige Anfrage.",
+    "NOT_FOUND": "Nicht gefunden.",
+    "UNKNOWN": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
+    "NETWORK_ERROR": "Der Server konnte nicht erreicht werden. Bitte versuchen Sie es erneut."
+  }
+}

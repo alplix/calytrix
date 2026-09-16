@@ -1,0 +1,72 @@
+{
+  "Landing": {
+    "badge": "AIによるプルリクエストレビュー",
+    "title": "GitHub向けAIコードレビュー",
+    "subtitle": "バグ、セキュリティ上の問題、パフォーマンスの問題を本番環境に届く前に発見します。",
+    "connectGithub": "GitHubと連携する",
+    "categoryBugs": "バグ",
+    "categorySecurity": "セキュリティ",
+    "categoryPerformance": "パフォーマンス",
+    "categoryCodeQuality": "コード品質",
+    "categoryMissingTests": "テスト不足",
+    "footerTagline": "CalytrixはClaudeを使ってプルリクエストの差分をレビューします。あなたのコードを実行することは一切ありません。",
+    "footerCredit": "Alperen Yavuzによって開発されました"
+  },
+  "Nav": { "signOut": "サインアウト" },
+  "Language": { "label": "言語" },
+  "Dashboard": {
+    "title": "あなたのリポジトリ",
+    "subtitle": "プルリクエストをレビューするリポジトリを選択してください。",
+    "empty": "GitHubアカウントにリポジトリが見つかりませんでした。",
+    "private": "プライベート"
+  },
+  "Repo": {
+    "back": "すべてのリポジトリ",
+    "subtitle": "レビューするプルリクエストを選択してください。",
+    "empty": "このリポジトリにはプルリクエストが見つかりませんでした。",
+    "updatedBy": "{author} · 更新: {time}"
+  },
+  "Pull": {
+    "back": "すべてのプルリクエスト",
+    "mergeInfo": "{author} が <head>{headRef}</head> を <base>{baseRef}</base> にマージしようとしています",
+    "viewOnGithub": "GitHubで見る",
+    "staleNotice": "このプルリクエストには前回のレビュー以降に新しいコミットがあります。最新の結果を得るには再レビューしてください。"
+  },
+  "Review": {
+    "lastReviewedAt": "最終レビュー: {time}",
+    "summaryCount": "{count, plural, =0 {重大な問題は見つかりませんでした} other {# 件の問題が見つかりました}}",
+    "notReviewed": "このプルリクエストはまだレビューされていません。",
+    "run": "AIレビューを実行",
+    "rerun": "再レビュー",
+    "running": "レビュー中…",
+    "noProblems": "このプルリクエストに重大な問題は見つかりませんでした。",
+    "whyItMatters": "重要な理由",
+    "suggestedFix": "提案される修正"
+  },
+  "Severity": { "CRITICAL": "緊急", "HIGH": "高", "MEDIUM": "中", "LOW": "低" },
+  "Category": {
+    "BUG": "バグ",
+    "SECURITY": "セキュリティ",
+    "PERFORMANCE": "パフォーマンス",
+    "CODE_QUALITY": "コード品質",
+    "MISSING_TESTS": "テスト不足"
+  },
+  "State": { "open": "オープン", "merged": "マージ済み", "closed": "クローズ" },
+  "Errors": {
+    "title": "問題が発生しました",
+    "UNAUTHORIZED": "この操作にはサインインが必要です。",
+    "GITHUB_AUTH_ERROR": "GitHubとの接続が無効になりました。再度サインインしてください。",
+    "GITHUB_RATE_LIMIT": "GitHub APIのレート制限に達しました。数分後にもう一度お試しください。",
+    "GITHUB_NOT_FOUND": "指定されたリポジトリまたはプルリクエストが見つかりませんでした。",
+    "GITHUB_API_ERROR": "GitHubに接続できませんでした。もう一度お試しください。",
+    "CLAUDE_API_ERROR": "AIレビューサービスは現在利用できません。もう一度お試しください。",
+    "CLAUDE_INVALID_RESPONSE": "AIレビューが有効な結果を返しませんでした。もう一度お試しください。",
+    "DIFF_TOO_LARGE": "このプルリクエストはレビューするには大きすぎます。",
+    "DIFF_EMPTY": "このプルリクエストにはレビュー可能なコード変更が見つかりませんでした。",
+    "DB_ERROR": "データベースに接続できませんでした。もう一度お試しください。",
+    "VALIDATION_ERROR": "無効なリクエストです。",
+    "NOT_FOUND": "見つかりません。",
+    "UNKNOWN": "問題が発生しました。もう一度お試しください。",
+    "NETWORK_ERROR": "サーバーに接続できませんでした。もう一度お試しください。"
+  }
+}

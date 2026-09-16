@@ -1,0 +1,72 @@
+{
+  "Landing": {
+    "badge": "Tekoälyavusteinen pull requestien tarkistus",
+    "title": "Tekoälyn koodikatselmointi GitHubille",
+    "subtitle": "Löydä bugit, tietoturvaongelmat ja suorituskykyongelmat ennen kuin ne päätyvät tuotantoon.",
+    "connectGithub": "Yhdistä GitHub",
+    "categoryBugs": "Bugit",
+    "categorySecurity": "Tietoturva",
+    "categoryPerformance": "Suorituskyky",
+    "categoryCodeQuality": "Koodin laatu",
+    "categoryMissingTests": "Puuttuvat testit",
+    "footerTagline": "Calytrix tarkistaa pull requestien diffit Clauden avulla. Se ei koskaan suorita koodiasi.",
+    "footerCredit": "Kehittänyt Alperen Yavuz"
+  },
+  "Nav": { "signOut": "Kirjaudu ulos" },
+  "Language": { "label": "Kieli" },
+  "Dashboard": {
+    "title": "Repositoriosi",
+    "subtitle": "Valitse repositorio tarkistaaksesi sen pull requestit.",
+    "empty": "GitHub-tililtäsi ei löytynyt repositorioita.",
+    "private": "Yksityinen"
+  },
+  "Repo": {
+    "back": "Kaikki repositoriot",
+    "subtitle": "Valitse tarkistettava pull request.",
+    "empty": "Tästä repositoriosta ei löytynyt pull requesteja.",
+    "updatedBy": "tekijä {author} · päivitetty {time}"
+  },
+  "Pull": {
+    "back": "Kaikki pull requestit",
+    "mergeInfo": "{author} haluaa yhdistää haaran <head>{headRef}</head> haaraan <base>{baseRef}</base>",
+    "viewOnGithub": "Näytä GitHubissa",
+    "staleNotice": "Tässä pull requestissa on uusia committeja viimeisimmän tarkistuksen jälkeen. Tarkista uudelleen saadaksesi ajantasaiset tulokset."
+  },
+  "Review": {
+    "lastReviewedAt": "Viimeksi tarkistettu {time}",
+    "summaryCount": "{count, plural, =0 {Merkittäviä ongelmia ei löytynyt} one {# ongelma löytyi} other {# ongelmaa löytyi}}",
+    "notReviewed": "Tätä pull requestia ei ole vielä tarkistettu.",
+    "run": "Käynnistä tekoälytarkistus",
+    "rerun": "Tarkista uudelleen",
+    "running": "Tarkistetaan…",
+    "noProblems": "Tästä pull requestista ei löytynyt merkittäviä ongelmia.",
+    "whyItMatters": "Miksi tällä on väliä",
+    "suggestedFix": "Ehdotettu korjaus"
+  },
+  "Severity": { "CRITICAL": "Kriittinen", "HIGH": "Korkea", "MEDIUM": "Keskitaso", "LOW": "Matala" },
+  "Category": {
+    "BUG": "Bugi",
+    "SECURITY": "Tietoturva",
+    "PERFORMANCE": "Suorituskyky",
+    "CODE_QUALITY": "Koodin laatu",
+    "MISSING_TESTS": "Puuttuvat testit"
+  },
+  "State": { "open": "avoin", "merged": "yhdistetty", "closed": "suljettu" },
+  "Errors": {
+    "title": "Jokin meni pieleen",
+    "UNAUTHORIZED": "Sinun täytyy kirjautua sisään tehdäksesi tämän.",
+    "GITHUB_AUTH_ERROR": "GitHub-yhteytesi ei ole enää voimassa. Kirjaudu sisään uudelleen.",
+    "GITHUB_RATE_LIMIT": "GitHub API -raja saavutettu. Yritä uudelleen muutaman minuutin kuluttua.",
+    "GITHUB_NOT_FOUND": "Pyydettyä repositoriota tai pull requestia ei löytynyt.",
+    "GITHUB_API_ERROR": "GitHubiin ei saatu yhteyttä. Yritä uudelleen.",
+    "CLAUDE_API_ERROR": "Tekoälyn tarkistuspalvelu ei ole juuri nyt käytettävissä. Yritä uudelleen.",
+    "CLAUDE_INVALID_RESPONSE": "Tekoälytarkistus ei palauttanut kelvollista tulosta. Yritä uudelleen.",
+    "DIFF_TOO_LARGE": "Tämä pull request on liian suuri tarkistettavaksi.",
+    "DIFF_EMPTY": "Tästä pull requestista ei löytynyt tarkistettavia koodimuutoksia.",
+    "DB_ERROR": "Tietokantaan ei saatu yhteyttä. Yritä uudelleen.",
+    "VALIDATION_ERROR": "Virheellinen pyyntö.",
+    "NOT_FOUND": "Ei löytynyt.",
+    "UNKNOWN": "Jokin meni pieleen. Yritä uudelleen.",
+    "NETWORK_ERROR": "Palvelimeen ei saatu yhteyttä. Yritä uudelleen."
+  }
+}

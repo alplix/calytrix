@@ -1,0 +1,85 @@
+{
+  "Landing": {
+    "badge": "Yapay zeka destekli pull request incelemesi",
+    "title": "GitHub için Yapay Zeka Kod İncelemesi",
+    "subtitle": "Hatalar, güvenlik açıkları ve performans sorunları production'a ulaşmadan önce yakalanır.",
+    "connectGithub": "GitHub ile Bağlan",
+    "categoryBugs": "Hatalar",
+    "categorySecurity": "Güvenlik",
+    "categoryPerformance": "Performans",
+    "categoryCodeQuality": "Kod kalitesi",
+    "categoryMissingTests": "Eksik testler",
+    "footerTagline": "Calytrix, pull request diff'lerini Claude ile inceler. Kodunuzu asla çalıştırmaz.",
+    "footerCredit": "Alperen Yavuz tarafından geliştirildi"
+  },
+  "Nav": {
+    "signOut": "Çıkış yap"
+  },
+  "Language": {
+    "label": "Dil"
+  },
+  "Dashboard": {
+    "title": "Repository'leriniz",
+    "subtitle": "Pull request'lerini incelemek için bir repository seçin.",
+    "empty": "GitHub hesabınızda repository bulunamadı.",
+    "private": "Özel"
+  },
+  "Repo": {
+    "back": "Tüm repository'ler",
+    "subtitle": "İncelemek için bir pull request seçin.",
+    "empty": "Bu repository'de pull request bulunamadı.",
+    "updatedBy": "{author} · güncellendi: {time}"
+  },
+  "Pull": {
+    "back": "Tüm pull request'ler",
+    "mergeInfo": "{author}, <head>{headRef}</head> dalından <base>{baseRef}</base> dalına birleştirmek istiyor",
+    "viewOnGithub": "GitHub'da görüntüle",
+    "staleNotice": "Bu pull request'te son incelemeden sonra yeni commit'ler eklendi. Güncel sonuçlar için yeniden inceleyin."
+  },
+  "Review": {
+    "lastReviewedAt": "Son inceleme: {time}",
+    "summaryCount": "{count, plural, =0 {Önemli bir problem bulunamadı} one {# problem bulundu} other {# problem bulundu}}",
+    "notReviewed": "Bu pull request henüz incelenmedi.",
+    "run": "Yapay zeka incelemesi başlat",
+    "rerun": "Yeniden incele",
+    "running": "İnceleniyor…",
+    "noProblems": "Bu pull request'te önemli bir problem bulunamadı.",
+    "whyItMatters": "Neden önemli",
+    "suggestedFix": "Önerilen çözüm"
+  },
+  "Severity": {
+    "CRITICAL": "Kritik",
+    "HIGH": "Yüksek",
+    "MEDIUM": "Orta",
+    "LOW": "Düşük"
+  },
+  "Category": {
+    "BUG": "Hata",
+    "SECURITY": "Güvenlik",
+    "PERFORMANCE": "Performans",
+    "CODE_QUALITY": "Kod kalitesi",
+    "MISSING_TESTS": "Eksik testler"
+  },
+  "State": {
+    "open": "açık",
+    "merged": "birleştirildi",
+    "closed": "kapalı"
+  },
+  "Errors": {
+    "title": "Bir şeyler ters gitti",
+    "UNAUTHORIZED": "Bunu yapmak için giriş yapmanız gerekiyor.",
+    "GITHUB_AUTH_ERROR": "GitHub bağlantınız artık geçerli değil. Lütfen tekrar giriş yapın.",
+    "GITHUB_RATE_LIMIT": "GitHub API istek limitine ulaşıldı. Lütfen birkaç dakika sonra tekrar deneyin.",
+    "GITHUB_NOT_FOUND": "İstenen repository veya pull request bulunamadı.",
+    "GITHUB_API_ERROR": "GitHub'a ulaşılamadı. Lütfen tekrar deneyin.",
+    "CLAUDE_API_ERROR": "Yapay zeka inceleme servisine şu anda ulaşılamıyor. Lütfen tekrar deneyin.",
+    "CLAUDE_INVALID_RESPONSE": "Yapay zeka incelemesi geçerli bir sonuç döndürmedi. Lütfen tekrar deneyin.",
+    "DIFF_TOO_LARGE": "Bu pull request incelemek için çok büyük.",
+    "DIFF_EMPTY": "Bu pull request'te incelenecek bir kod değişikliği bulunamadı.",
+    "DB_ERROR": "Veritabanına ulaşılamadı. Lütfen tekrar deneyin.",
+    "VALIDATION_ERROR": "Geçersiz istek.",
+    "NOT_FOUND": "Bulunamadı.",
+    "UNKNOWN": "Bir şeyler ters gitti. Lütfen tekrar deneyin.",
+    "NETWORK_ERROR": "Sunucuya ulaşılamadı. Lütfen tekrar deneyin."
+  }
+}

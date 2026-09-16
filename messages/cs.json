@@ -1,0 +1,72 @@
+{
+  "Landing": {
+    "badge": "Kontrola pull requestů pomocí AI",
+    "title": "AI kontrola kódu pro GitHub",
+    "subtitle": "Najděte chyby, bezpečnostní a výkonnostní problémy dříve, než se dostanou do produkce.",
+    "connectGithub": "Připojit GitHub",
+    "categoryBugs": "Chyby",
+    "categorySecurity": "Bezpečnost",
+    "categoryPerformance": "Výkon",
+    "categoryCodeQuality": "Kvalita kódu",
+    "categoryMissingTests": "Chybějící testy",
+    "footerTagline": "Calytrix kontroluje diffy pull requestů pomocí Claude. Váš kód nikdy nespouští.",
+    "footerCredit": "Vytvořil Alperen Yavuz"
+  },
+  "Nav": { "signOut": "Odhlásit se" },
+  "Language": { "label": "Jazyk" },
+  "Dashboard": {
+    "title": "Vaše repozitáře",
+    "subtitle": "Vyberte repozitář a zkontrolujte jeho pull requesty.",
+    "empty": "Ve vašem účtu GitHub nebyly nalezeny žádné repozitáře.",
+    "private": "Soukromý"
+  },
+  "Repo": {
+    "back": "Všechny repozitáře",
+    "subtitle": "Vyberte pull request ke kontrole.",
+    "empty": "V tomto repozitáři nebyly nalezeny žádné pull requesty.",
+    "updatedBy": "od {author} · aktualizováno {time}"
+  },
+  "Pull": {
+    "back": "Všechny pull requesty",
+    "mergeInfo": "{author} chce sloučit <head>{headRef}</head> do <base>{baseRef}</base>",
+    "viewOnGithub": "Zobrazit na GitHubu",
+    "staleNotice": "Tento pull request má nové commity od poslední kontroly. Proveďte novou kontrolu pro aktuální výsledky."
+  },
+  "Review": {
+    "lastReviewedAt": "Poslední kontrola {time}",
+    "summaryCount": "{count, plural, =0 {Nebyly nalezeny žádné závažné problémy} one {Nalezen # problém} few {Nalezeny # problémy} many {Nalezeno # problému} other {Nalezeno # problémů}}",
+    "notReviewed": "Tento pull request ještě nebyl zkontrolován.",
+    "run": "Spustit AI kontrolu",
+    "rerun": "Zkontrolovat znovu",
+    "running": "Probíhá kontrola…",
+    "noProblems": "V tomto pull requestu nebyly nalezeny žádné závažné problémy.",
+    "whyItMatters": "Proč na tom záleží",
+    "suggestedFix": "Navrhovaná oprava"
+  },
+  "Severity": { "CRITICAL": "Kritická", "HIGH": "Vysoká", "MEDIUM": "Střední", "LOW": "Nízká" },
+  "Category": {
+    "BUG": "Chyba",
+    "SECURITY": "Bezpečnost",
+    "PERFORMANCE": "Výkon",
+    "CODE_QUALITY": "Kvalita kódu",
+    "MISSING_TESTS": "Chybějící testy"
+  },
+  "State": { "open": "otevřený", "merged": "sloučený", "closed": "uzavřený" },
+  "Errors": {
+    "title": "Něco se pokazilo",
+    "UNAUTHORIZED": "K provedení této akce se musíte přihlásit.",
+    "GITHUB_AUTH_ERROR": "Vaše připojení ke GitHubu již není platné. Přihlaste se prosím znovu.",
+    "GITHUB_RATE_LIMIT": "Byl dosažen limit požadavků GitHub API. Zkuste to za pár minut znovu.",
+    "GITHUB_NOT_FOUND": "Požadovaný repozitář nebo pull request nebyl nalezen.",
+    "GITHUB_API_ERROR": "Nepodařilo se spojit s GitHubem. Zkuste to znovu.",
+    "CLAUDE_API_ERROR": "Služba AI kontroly je momentálně nedostupná. Zkuste to znovu.",
+    "CLAUDE_INVALID_RESPONSE": "AI kontrola nevrátila platný výsledek. Zkuste to znovu.",
+    "DIFF_TOO_LARGE": "Tento pull request je na kontrolu příliš velký.",
+    "DIFF_EMPTY": "V tomto pull requestu nebyly nalezeny žádné kontrolovatelné změny kódu.",
+    "DB_ERROR": "Nepodařilo se spojit s databází. Zkuste to znovu.",
+    "VALIDATION_ERROR": "Neplatný požadavek.",
+    "NOT_FOUND": "Nenalezeno.",
+    "UNKNOWN": "Něco se pokazilo. Zkuste to znovu.",
+    "NETWORK_ERROR": "Nepodařilo se spojit se serverem. Zkuste to znovu."
+  }
+}

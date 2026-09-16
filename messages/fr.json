@@ -1,0 +1,72 @@
+{
+  "Landing": {
+    "badge": "Revue de pull request par IA",
+    "title": "Revue de code IA pour GitHub",
+    "subtitle": "Détectez les bugs, failles de sécurité et problèmes de performance avant qu'ils n'atteignent la production.",
+    "connectGithub": "Se connecter avec GitHub",
+    "categoryBugs": "Bugs",
+    "categorySecurity": "Sécurité",
+    "categoryPerformance": "Performance",
+    "categoryCodeQuality": "Qualité du code",
+    "categoryMissingTests": "Tests manquants",
+    "footerTagline": "Calytrix analyse les diffs des pull requests avec Claude. Votre code n'est jamais exécuté.",
+    "footerCredit": "Développé par Alperen Yavuz"
+  },
+  "Nav": { "signOut": "Se déconnecter" },
+  "Language": { "label": "Langue" },
+  "Dashboard": {
+    "title": "Vos dépôts",
+    "subtitle": "Choisissez un dépôt pour examiner ses pull requests.",
+    "empty": "Aucun dépôt trouvé sur votre compte GitHub.",
+    "private": "Privé"
+  },
+  "Repo": {
+    "back": "Tous les dépôts",
+    "subtitle": "Sélectionnez une pull request à examiner.",
+    "empty": "Aucune pull request trouvée dans ce dépôt.",
+    "updatedBy": "par {author} · mis à jour {time}"
+  },
+  "Pull": {
+    "back": "Toutes les pull requests",
+    "mergeInfo": "{author} souhaite fusionner <head>{headRef}</head> dans <base>{baseRef}</base>",
+    "viewOnGithub": "Voir sur GitHub",
+    "staleNotice": "Cette pull request a de nouveaux commits depuis la dernière analyse. Relancez une analyse pour des résultats à jour."
+  },
+  "Review": {
+    "lastReviewedAt": "Dernière analyse {time}",
+    "summaryCount": "{count, plural, =0 {Aucun problème significatif trouvé} one {# problème trouvé} other {# problèmes trouvés}}",
+    "notReviewed": "Cette pull request n'a pas encore été analysée.",
+    "run": "Lancer l'analyse IA",
+    "rerun": "Réanalyser",
+    "running": "Analyse en cours…",
+    "noProblems": "Aucun problème significatif n'a été trouvé dans cette pull request.",
+    "whyItMatters": "Pourquoi c'est important",
+    "suggestedFix": "Correction suggérée"
+  },
+  "Severity": { "CRITICAL": "Critique", "HIGH": "Élevée", "MEDIUM": "Moyenne", "LOW": "Faible" },
+  "Category": {
+    "BUG": "Bug",
+    "SECURITY": "Sécurité",
+    "PERFORMANCE": "Performance",
+    "CODE_QUALITY": "Qualité du code",
+    "MISSING_TESTS": "Tests manquants"
+  },
+  "State": { "open": "ouverte", "merged": "fusionnée", "closed": "fermée" },
+  "Errors": {
+    "title": "Une erreur s'est produite",
+    "UNAUTHORIZED": "Vous devez être connecté pour faire cela.",
+    "GITHUB_AUTH_ERROR": "Votre connexion GitHub n'est plus valide. Veuillez vous reconnecter.",
+    "GITHUB_RATE_LIMIT": "Limite de requêtes GitHub atteinte. Veuillez réessayer dans quelques minutes.",
+    "GITHUB_NOT_FOUND": "Le dépôt ou la pull request demandé est introuvable.",
+    "GITHUB_API_ERROR": "Impossible de contacter GitHub. Veuillez réessayer.",
+    "CLAUDE_API_ERROR": "Le service d'analyse IA est actuellement indisponible. Veuillez réessayer.",
+    "CLAUDE_INVALID_RESPONSE": "L'analyse IA n'a pas renvoyé de résultat valide. Veuillez réessayer.",
+    "DIFF_TOO_LARGE": "Cette pull request est trop volumineuse pour être analysée.",
+    "DIFF_EMPTY": "Aucune modification de code analysable n'a été trouvée dans cette pull request.",
+    "DB_ERROR": "Impossible de contacter la base de données. Veuillez réessayer.",
+    "VALIDATION_ERROR": "Requête invalide.",
+    "NOT_FOUND": "Introuvable.",
+    "UNKNOWN": "Une erreur s'est produite. Veuillez réessayer.",
+    "NETWORK_ERROR": "Impossible de contacter le serveur. Veuillez réessayer."
+  }
+}

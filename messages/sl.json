@@ -1,0 +1,72 @@
+{
+  "Landing": {
+    "badge": "Pregled pull requestov z umetno inteligenco",
+    "title": "AI pregled kode za GitHub",
+    "subtitle": "Odkrijte napake, varnostne in zmogljivostne težave, preden pridejo v produkcijo.",
+    "connectGithub": "Poveži GitHub",
+    "categoryBugs": "Napake",
+    "categorySecurity": "Varnost",
+    "categoryPerformance": "Zmogljivost",
+    "categoryCodeQuality": "Kakovost kode",
+    "categoryMissingTests": "Manjkajoči testi",
+    "footerTagline": "Calytrix pregleduje diffe pull requestov s Claudom. Vaše kode nikoli ne zažene.",
+    "footerCredit": "Izdelal Alperen Yavuz"
+  },
+  "Nav": { "signOut": "Odjava" },
+  "Language": { "label": "Jezik" },
+  "Dashboard": {
+    "title": "Vaša skladišča",
+    "subtitle": "Izberite skladišče za pregled njegovih pull requestov.",
+    "empty": "V vašem GitHub računu ni bilo najdenih skladišč.",
+    "private": "Zasebno"
+  },
+  "Repo": {
+    "back": "Vsa skladišča",
+    "subtitle": "Izberite pull request za pregled.",
+    "empty": "V tem skladišču ni bilo najdenih pull requestov.",
+    "updatedBy": "avtor {author} · posodobljeno {time}"
+  },
+  "Pull": {
+    "back": "Vsi pull requesti",
+    "mergeInfo": "{author} želi združiti <head>{headRef}</head> v <base>{baseRef}</base>",
+    "viewOnGithub": "Ogled na GitHubu",
+    "staleNotice": "Ta pull request ima nove commite od zadnjega pregleda. Ponovno ga preglejte za posodobljene rezultate."
+  },
+  "Review": {
+    "lastReviewedAt": "Nazadnje pregledano {time}",
+    "summaryCount": "{count, plural, =0 {Ni bilo najdenih pomembnih težav} one {Najdena je # težava} two {Najdeni sta # težavi} few {Najdene so # težave} other {Najdenih je # težav}}",
+    "notReviewed": "Ta pull request še ni bil pregledan.",
+    "run": "Zaženi AI pregled",
+    "rerun": "Ponovno preglej",
+    "running": "Pregledovanje…",
+    "noProblems": "V tem pull requestu ni bilo najdenih pomembnih težav.",
+    "whyItMatters": "Zakaj je to pomembno",
+    "suggestedFix": "Predlagana rešitev"
+  },
+  "Severity": { "CRITICAL": "Kritično", "HIGH": "Visoko", "MEDIUM": "Srednje", "LOW": "Nizko" },
+  "Category": {
+    "BUG": "Napaka",
+    "SECURITY": "Varnost",
+    "PERFORMANCE": "Zmogljivost",
+    "CODE_QUALITY": "Kakovost kode",
+    "MISSING_TESTS": "Manjkajoči testi"
+  },
+  "State": { "open": "odprt", "merged": "združen", "closed": "zaprt" },
+  "Errors": {
+    "title": "Nekaj je šlo narobe",
+    "UNAUTHORIZED": "Za to morate biti prijavljeni.",
+    "GITHUB_AUTH_ERROR": "Vaša povezava z GitHub ni več veljavna. Prosimo, prijavite se znova.",
+    "GITHUB_RATE_LIMIT": "Dosežena je omejitev zahtev GitHub API. Poskusite znova čez nekaj minut.",
+    "GITHUB_NOT_FOUND": "Zahtevanega skladišča ali pull requesta ni bilo mogoče najti.",
+    "GITHUB_API_ERROR": "Povezava z GitHub ni uspela. Poskusite znova.",
+    "CLAUDE_API_ERROR": "Storitev AI pregleda trenutno ni na voljo. Poskusite znova.",
+    "CLAUDE_INVALID_RESPONSE": "AI pregled ni vrnil veljavnega rezultata. Poskusite znova.",
+    "DIFF_TOO_LARGE": "Ta pull request je prevelik za pregled.",
+    "DIFF_EMPTY": "V tem pull requestu ni bilo najdenih sprememb kode za pregled.",
+    "DB_ERROR": "Povezava s podatkovno bazo ni uspela. Poskusite znova.",
+    "VALIDATION_ERROR": "Neveljavna zahteva.",
+    "NOT_FOUND": "Ni najdeno.",
+    "UNKNOWN": "Nekaj je šlo narobe. Poskusite znova.",
+    "NETWORK_ERROR": "Povezava s strežnikom ni uspela. Poskusite znova."
+  }
+}

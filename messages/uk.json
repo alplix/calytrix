@@ -1,0 +1,72 @@
+{
+  "Landing": {
+    "badge": "Перевірка pull request за допомогою ШІ",
+    "title": "ШІ-перевірка коду для GitHub",
+    "subtitle": "Знаходьте баги, вразливості та проблеми продуктивності до того, як вони потраплять у продакшн.",
+    "connectGithub": "Підключити GitHub",
+    "categoryBugs": "Баги",
+    "categorySecurity": "Безпека",
+    "categoryPerformance": "Продуктивність",
+    "categoryCodeQuality": "Якість коду",
+    "categoryMissingTests": "Відсутні тести",
+    "footerTagline": "Calytrix перевіряє diff'и pull request'ів за допомогою Claude. Ваш код ніколи не запускається.",
+    "footerCredit": "Розроблено Alperen Yavuz"
+  },
+  "Nav": { "signOut": "Вийти" },
+  "Language": { "label": "Мова" },
+  "Dashboard": {
+    "title": "Ваші репозиторії",
+    "subtitle": "Оберіть репозиторій, щоб переглянути його pull request'и.",
+    "empty": "У вашому обліковому записі GitHub не знайдено репозиторіїв.",
+    "private": "Приватний"
+  },
+  "Repo": {
+    "back": "Усі репозиторії",
+    "subtitle": "Оберіть pull request для перевірки.",
+    "empty": "У цьому репозиторії не знайдено pull request'ів.",
+    "updatedBy": "автор {author} · оновлено {time}"
+  },
+  "Pull": {
+    "back": "Усі pull request'и",
+    "mergeInfo": "{author} хоче злити <head>{headRef}</head> у <base>{baseRef}</base>",
+    "viewOnGithub": "Переглянути на GitHub",
+    "staleNotice": "У цьому pull request'і є нові коміти після останньої перевірки. Запустіть перевірку знову для актуальних результатів."
+  },
+  "Review": {
+    "lastReviewedAt": "Остання перевірка {time}",
+    "summaryCount": "{count, plural, =0 {Суттєвих проблем не знайдено} one {Знайдено # проблему} few {Знайдено # проблеми} many {Знайдено # проблем} other {Знайдено # проблеми}}",
+    "notReviewed": "Цей pull request ще не перевірявся.",
+    "run": "Запустити ШІ-перевірку",
+    "rerun": "Перевірити знову",
+    "running": "Перевірка…",
+    "noProblems": "У цьому pull request'і суттєвих проблем не знайдено.",
+    "whyItMatters": "Чому це важливо",
+    "suggestedFix": "Пропоноване рішення"
+  },
+  "Severity": { "CRITICAL": "Критична", "HIGH": "Висока", "MEDIUM": "Середня", "LOW": "Низька" },
+  "Category": {
+    "BUG": "Баг",
+    "SECURITY": "Безпека",
+    "PERFORMANCE": "Продуктивність",
+    "CODE_QUALITY": "Якість коду",
+    "MISSING_TESTS": "Відсутні тести"
+  },
+  "State": { "open": "відкритий", "merged": "злитий", "closed": "закритий" },
+  "Errors": {
+    "title": "Щось пішло не так",
+    "UNAUTHORIZED": "Для цього потрібно увійти в систему.",
+    "GITHUB_AUTH_ERROR": "Ваше підключення до GitHub більше не дійсне. Будь ласка, увійдіть знову.",
+    "GITHUB_RATE_LIMIT": "Досягнуто ліміту запитів GitHub API. Спробуйте знову за кілька хвилин.",
+    "GITHUB_NOT_FOUND": "Запитаний репозиторій або pull request не знайдено.",
+    "GITHUB_API_ERROR": "Не вдалося підключитися до GitHub. Спробуйте знову.",
+    "CLAUDE_API_ERROR": "Сервіс ШІ-перевірки наразі недоступний. Спробуйте знову.",
+    "CLAUDE_INVALID_RESPONSE": "ШІ-перевірка не повернула коректний результат. Спробуйте знову.",
+    "DIFF_TOO_LARGE": "Цей pull request занадто великий для перевірки.",
+    "DIFF_EMPTY": "У цьому pull request'і не знайдено змін коду для перевірки.",
+    "DB_ERROR": "Не вдалося підключитися до бази даних. Спробуйте знову.",
+    "VALIDATION_ERROR": "Некоректний запит.",
+    "NOT_FOUND": "Не знайдено.",
+    "UNKNOWN": "Щось пішло не так. Спробуйте знову.",
+    "NETWORK_ERROR": "Не вдалося підключитися до сервера. Спробуйте знову."
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "Landing": {
+    "badge": "Analiză de pull request cu AI",
+    "title": "Analiză de cod cu AI pentru GitHub",
+    "subtitle": "Găsește bug-uri, probleme de securitate și de performanță înainte să ajungă în producție.",
+    "connectGithub": "Conectează-te cu GitHub",
+    "categoryBugs": "Bug-uri",
+    "categorySecurity": "Securitate",
+    "categoryPerformance": "Performanță",
+    "categoryCodeQuality": "Calitatea codului",
+    "categoryMissingTests": "Teste lipsă",
+    "footerTagline": "Calytrix analizează diff-urile pull request-urilor cu Claude. Nu îți execută niciodată codul.",
+    "footerCredit": "Realizat de Alperen Yavuz"
+  },
+  "Nav": { "signOut": "Deconectare" },
+  "Language": { "label": "Limbă" },
+  "Dashboard": {
+    "title": "Repository-urile tale",
+    "subtitle": "Alege un repository pentru a-i analiza pull request-urile.",
+    "empty": "Nu s-a găsit niciun repository în contul tău de GitHub.",
+    "private": "Privat"
+  },
+  "Repo": {
+    "back": "Toate repository-urile",
+    "subtitle": "Selectează un pull request pentru analiză.",
+    "empty": "Nu s-a găsit niciun pull request în acest repository.",
+    "updatedBy": "de {author} · actualizat {time}"
+  },
+  "Pull": {
+    "back": "Toate pull request-urile",
+    "mergeInfo": "{author} dorește să integreze <head>{headRef}</head> în <base>{baseRef}</base>",
+    "viewOnGithub": "Vezi pe GitHub",
+    "staleNotice": "Acest pull request are commit-uri noi de la ultima analiză. Analizează-l din nou pentru rezultate actualizate."
+  },
+  "Review": {
+    "lastReviewedAt": "Ultima analiză {time}",
+    "summaryCount": "{count, plural, =0 {Nu s-a găsit nicio problemă semnificativă} one {# problemă găsită} few {# probleme găsite} other {# de probleme găsite}}",
+    "notReviewed": "Acest pull request nu a fost încă analizat.",
+    "run": "Pornește analiza AI",
+    "rerun": "Analizează din nou",
+    "running": "Se analizează…",
+    "noProblems": "Nu s-a găsit nicio problemă semnificativă în acest pull request.",
+    "whyItMatters": "De ce contează",
+    "suggestedFix": "Soluție sugerată"
+  },
+  "Severity": { "CRITICAL": "Critică", "HIGH": "Ridicată", "MEDIUM": "Medie", "LOW": "Scăzută" },
+  "Category": {
+    "BUG": "Bug",
+    "SECURITY": "Securitate",
+    "PERFORMANCE": "Performanță",
+    "CODE_QUALITY": "Calitatea codului",
+    "MISSING_TESTS": "Teste lipsă"
+  },
+  "State": { "open": "deschis", "merged": "integrat", "closed": "închis" },
+  "Errors": {
+    "title": "Ceva nu a mers bine",
+    "UNAUTHORIZED": "Trebuie să fii autentificat pentru asta.",
+    "GITHUB_AUTH_ERROR": "Conexiunea ta cu GitHub nu mai este validă. Te rugăm să te autentifici din nou.",
+    "GITHUB_RATE_LIMIT": "S-a atins limita de cereri a API-ului GitHub. Încearcă din nou peste câteva minute.",
+    "GITHUB_NOT_FOUND": "Repository-ul sau pull request-ul solicitat nu a fost găsit.",
+    "GITHUB_API_ERROR": "Nu s-a putut contacta GitHub. Încearcă din nou.",
+    "CLAUDE_API_ERROR": "Serviciul de analiză AI nu este disponibil momentan. Încearcă din nou.",
+    "CLAUDE_INVALID_RESPONSE": "Analiza AI nu a returnat un rezultat valid. Încearcă din nou.",
+    "DIFF_TOO_LARGE": "Acest pull request este prea mare pentru a fi analizat.",
+    "DIFF_EMPTY": "Nu s-au găsit modificări de cod care pot fi analizate în acest pull request.",
+    "DB_ERROR": "Nu s-a putut contacta baza de date. Încearcă din nou.",
+    "VALIDATION_ERROR": "Cerere invalidă.",
+    "NOT_FOUND": "Negăsit.",
+    "UNKNOWN": "Ceva nu a mers bine. Încearcă din nou.",
+    "NETWORK_ERROR": "Nu s-a putut contacta serverul. Încearcă din nou."
+  }
+}

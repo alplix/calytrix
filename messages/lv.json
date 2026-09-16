@@ -1,0 +1,72 @@
+{
+  "Landing": {
+    "badge": "AI vadīta pull request pārbaude",
+    "title": "AI koda pārskatīšana GitHub",
+    "subtitle": "Atrodiet kļūdas, drošības un veiktspējas problēmas, pirms tās nonāk produkcijā.",
+    "connectGithub": "Savienot ar GitHub",
+    "categoryBugs": "Kļūdas",
+    "categorySecurity": "Drošība",
+    "categoryPerformance": "Veiktspēja",
+    "categoryCodeQuality": "Koda kvalitāte",
+    "categoryMissingTests": "Trūkstoši testi",
+    "footerTagline": "Calytrix pārskata pull request izmaiņas ar Claude. Tas nekad neizpilda jūsu kodu.",
+    "footerCredit": "Izstrādājis Alperen Yavuz"
+  },
+  "Nav": { "signOut": "Izrakstīties" },
+  "Language": { "label": "Valoda" },
+  "Dashboard": {
+    "title": "Jūsu repozitoriji",
+    "subtitle": "Izvēlieties repozitoriju, lai pārskatītu tā pull requestus.",
+    "empty": "Jūsu GitHub kontā nav atrasts neviens repozitorijs.",
+    "private": "Privāts"
+  },
+  "Repo": {
+    "back": "Visi repozitoriji",
+    "subtitle": "Izvēlieties pārskatāmo pull requestu.",
+    "empty": "Šajā repozitorijā nav atrasts neviens pull requests.",
+    "updatedBy": "autors {author} · atjaunināts {time}"
+  },
+  "Pull": {
+    "back": "Visi pull requesti",
+    "mergeInfo": "{author} vēlas apvienot <head>{headRef}</head> ar <base>{baseRef}</base>",
+    "viewOnGithub": "Skatīt GitHub",
+    "staleNotice": "Šim pull requestam kopš pēdējās pārbaudes ir jauni commiti. Veiciet atkārtotu pārbaudi, lai iegūtu aktuālus rezultātus."
+  },
+  "Review": {
+    "lastReviewedAt": "Pēdējā pārbaude {time}",
+    "summaryCount": "{count, plural, =0 {Nozīmīgas problēmas netika atrastas} zero {Atrastas # problēmu} one {Atrasta # problēma} other {Atrastas # problēmas}}",
+    "notReviewed": "Šis pull requests vēl nav pārbaudīts.",
+    "run": "Sākt AI pārbaudi",
+    "rerun": "Pārbaudīt atkārtoti",
+    "running": "Notiek pārbaude…",
+    "noProblems": "Šajā pull requestā netika atrastas nozīmīgas problēmas.",
+    "whyItMatters": "Kāpēc tas ir svarīgi",
+    "suggestedFix": "Ieteiktais risinājums"
+  },
+  "Severity": { "CRITICAL": "Kritiska", "HIGH": "Augsta", "MEDIUM": "Vidēja", "LOW": "Zema" },
+  "Category": {
+    "BUG": "Kļūda",
+    "SECURITY": "Drošība",
+    "PERFORMANCE": "Veiktspēja",
+    "CODE_QUALITY": "Koda kvalitāte",
+    "MISSING_TESTS": "Trūkstoši testi"
+  },
+  "State": { "open": "atvērts", "merged": "apvienots", "closed": "aizvērts" },
+  "Errors": {
+    "title": "Kaut kas nogāja greizi",
+    "UNAUTHORIZED": "Lai to izdarītu, jums jāpiesakās.",
+    "GITHUB_AUTH_ERROR": "Jūsu GitHub savienojums vairs nav derīgs. Lūdzu, piesakieties vēlreiz.",
+    "GITHUB_RATE_LIMIT": "Sasniegts GitHub API pieprasījumu limits. Mēģiniet vēlreiz pēc dažām minūtēm.",
+    "GITHUB_NOT_FOUND": "Pieprasītais repozitorijs vai pull requests netika atrasts.",
+    "GITHUB_API_ERROR": "Neizdevās izveidot savienojumu ar GitHub. Mēģiniet vēlreiz.",
+    "CLAUDE_API_ERROR": "AI pārbaudes pakalpojums pašlaik nav pieejams. Mēģiniet vēlreiz.",
+    "CLAUDE_INVALID_RESPONSE": "AI pārbaude neatgrieza derīgu rezultātu. Mēģiniet vēlreiz.",
+    "DIFF_TOO_LARGE": "Šis pull requests ir pārāk liels, lai to pārbaudītu.",
+    "DIFF_EMPTY": "Šajā pull requestā netika atrastas pārbaudāmas koda izmaiņas.",
+    "DB_ERROR": "Neizdevās izveidot savienojumu ar datubāzi. Mēģiniet vēlreiz.",
+    "VALIDATION_ERROR": "Nederīgs pieprasījums.",
+    "NOT_FOUND": "Nav atrasts.",
+    "UNKNOWN": "Kaut kas nogāja greizi. Mēģiniet vēlreiz.",
+    "NETWORK_ERROR": "Neizdevās izveidot savienojumu ar serveri. Mēģiniet vēlreiz."
+  }
+}

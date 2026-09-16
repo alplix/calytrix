@@ -1,0 +1,72 @@
+{
+  "Landing": {
+    "badge": "Tehisintellektil põhinev pull requestide ülevaatus",
+    "title": "AI koodiülevaatus GitHubile",
+    "subtitle": "Leidke vead, turvaprobleemid ja jõudlusprobleemid enne, kui need jõuavad tootmisesse.",
+    "connectGithub": "Ühenda GitHub",
+    "categoryBugs": "Vead",
+    "categorySecurity": "Turvalisus",
+    "categoryPerformance": "Jõudlus",
+    "categoryCodeQuality": "Koodi kvaliteet",
+    "categoryMissingTests": "Puuduvad testid",
+    "footerTagline": "Calytrix vaatab pull requestide diffe üle Claude abil. See ei käivita kunagi teie koodi.",
+    "footerCredit": "Koostanud Alperen Yavuz"
+  },
+  "Nav": { "signOut": "Logi välja" },
+  "Language": { "label": "Keel" },
+  "Dashboard": {
+    "title": "Teie repositooriumid",
+    "subtitle": "Valige repositoorium selle pull requestide ülevaatamiseks.",
+    "empty": "Teie GitHubi kontolt ei leitud ühtegi repositooriumi.",
+    "private": "Privaatne"
+  },
+  "Repo": {
+    "back": "Kõik repositooriumid",
+    "subtitle": "Valige ülevaatamiseks pull request.",
+    "empty": "Selles repositooriumis ei leitud ühtegi pull requesti.",
+    "updatedBy": "autor {author} · uuendatud {time}"
+  },
+  "Pull": {
+    "back": "Kõik pull requestid",
+    "mergeInfo": "{author} soovib ühendada haru <head>{headRef}</head> harusse <base>{baseRef}</base>",
+    "viewOnGithub": "Vaata GitHubis",
+    "staleNotice": "Sellel pull requestil on viimasest ülevaatusest saadik uusi commite. Vaadake uuesti üle, et näha ajakohaseid tulemusi."
+  },
+  "Review": {
+    "lastReviewedAt": "Viimati üle vaadatud {time}",
+    "summaryCount": "{count, plural, =0 {Olulisi probleeme ei leitud} one {Leiti # probleem} other {Leiti # probleemi}}",
+    "notReviewed": "Seda pull requesti pole veel üle vaadatud.",
+    "run": "Käivita AI ülevaatus",
+    "rerun": "Vaata uuesti üle",
+    "running": "Ülevaatamine…",
+    "noProblems": "Sellest pull requestist ei leitud olulisi probleeme.",
+    "whyItMatters": "Miks see on oluline",
+    "suggestedFix": "Soovitatud lahendus"
+  },
+  "Severity": { "CRITICAL": "Kriitiline", "HIGH": "Kõrge", "MEDIUM": "Keskmine", "LOW": "Madal" },
+  "Category": {
+    "BUG": "Viga",
+    "SECURITY": "Turvalisus",
+    "PERFORMANCE": "Jõudlus",
+    "CODE_QUALITY": "Koodi kvaliteet",
+    "MISSING_TESTS": "Puuduvad testid"
+  },
+  "State": { "open": "avatud", "merged": "ühendatud", "closed": "suletud" },
+  "Errors": {
+    "title": "Midagi läks valesti",
+    "UNAUTHORIZED": "Selle tegemiseks peate sisse logima.",
+    "GITHUB_AUTH_ERROR": "Teie GitHubi ühendus pole enam kehtiv. Palun logige uuesti sisse.",
+    "GITHUB_RATE_LIMIT": "GitHub API piirmäär on täis. Proovige mõne minuti pärast uuesti.",
+    "GITHUB_NOT_FOUND": "Soovitud repositooriumi või pull requesti ei leitud.",
+    "GITHUB_API_ERROR": "GitHubiga ei õnnestunud ühendust luua. Proovige uuesti.",
+    "CLAUDE_API_ERROR": "AI ülevaatuse teenus pole hetkel saadaval. Proovige uuesti.",
+    "CLAUDE_INVALID_RESPONSE": "AI ülevaatus ei tagastanud kehtivat tulemust. Proovige uuesti.",
+    "DIFF_TOO_LARGE": "See pull request on ülevaatamiseks liiga suur.",
+    "DIFF_EMPTY": "Sellest pull requestist ei leitud ülevaadatavaid koodimuudatusi.",
+    "DB_ERROR": "Andmebaasiga ei õnnestunud ühendust luua. Proovige uuesti.",
+    "VALIDATION_ERROR": "Sobimatu päring.",
+    "NOT_FOUND": "Ei leitud.",
+    "UNKNOWN": "Midagi läks valesti. Proovige uuesti.",
+    "NETWORK_ERROR": "Serveriga ei õnnestunud ühendust luua. Proovige uuesti."
+  }
+}

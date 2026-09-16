@@ -1,0 +1,72 @@
+{
+  "Landing": {
+    "badge": "Преглед на pull request с изкуствен интелект",
+    "title": "AI преглед на код за GitHub",
+    "subtitle": "Открийте бъгове, проблеми със сигурността и производителността, преди да стигнат до продукцията.",
+    "connectGithub": "Свързване с GitHub",
+    "categoryBugs": "Бъгове",
+    "categorySecurity": "Сигурност",
+    "categoryPerformance": "Производителност",
+    "categoryCodeQuality": "Качество на кода",
+    "categoryMissingTests": "Липсващи тестове",
+    "footerTagline": "Calytrix преглежда diff-овете на pull requests с Claude. Никога не изпълнява вашия код.",
+    "footerCredit": "Разработено от Alperen Yavuz"
+  },
+  "Nav": { "signOut": "Изход" },
+  "Language": { "label": "Език" },
+  "Dashboard": {
+    "title": "Вашите хранилища",
+    "subtitle": "Изберете хранилище, за да прегледате неговите pull requests.",
+    "empty": "Не са намерени хранилища във вашия GitHub акаунт.",
+    "private": "Частно"
+  },
+  "Repo": {
+    "back": "Всички хранилища",
+    "subtitle": "Изберете pull request за преглед.",
+    "empty": "В това хранилище не бяха намерени pull requests.",
+    "updatedBy": "от {author} · обновено {time}"
+  },
+  "Pull": {
+    "back": "Всички pull requests",
+    "mergeInfo": "{author} иска да слее <head>{headRef}</head> в <base>{baseRef}</base>",
+    "viewOnGithub": "Преглед в GitHub",
+    "staleNotice": "Този pull request има нови commits след последния преглед. Направете нов преглед за актуални резултати."
+  },
+  "Review": {
+    "lastReviewedAt": "Последен преглед {time}",
+    "summaryCount": "{count, plural, =0 {Не бяха намерени съществени проблеми} one {Намерен е # проблем} other {Намерени са # проблема}}",
+    "notReviewed": "Този pull request все още не е прегледан.",
+    "run": "Стартиране на AI преглед",
+    "rerun": "Преглед отново",
+    "running": "Преглежда се…",
+    "noProblems": "В този pull request не бяха намерени съществени проблеми.",
+    "whyItMatters": "Защо е важно",
+    "suggestedFix": "Предложено решение"
+  },
+  "Severity": { "CRITICAL": "Критична", "HIGH": "Висока", "MEDIUM": "Средна", "LOW": "Ниска" },
+  "Category": {
+    "BUG": "Бъг",
+    "SECURITY": "Сигурност",
+    "PERFORMANCE": "Производителност",
+    "CODE_QUALITY": "Качество на кода",
+    "MISSING_TESTS": "Липсващи тестове"
+  },
+  "State": { "open": "отворен", "merged": "слят", "closed": "затворен" },
+  "Errors": {
+    "title": "Нещо се обърка",
+    "UNAUTHORIZED": "Трябва да влезете в профила си, за да направите това.",
+    "GITHUB_AUTH_ERROR": "Връзката ви с GitHub вече не е валидна. Моля, влезте отново.",
+    "GITHUB_RATE_LIMIT": "Достигнат е лимитът на GitHub API. Опитайте отново след няколко минути.",
+    "GITHUB_NOT_FOUND": "Заявеното хранилище или pull request не бяха намерени.",
+    "GITHUB_API_ERROR": "Неуспешна връзка с GitHub. Опитайте отново.",
+    "CLAUDE_API_ERROR": "Услугата за AI преглед в момента не е достъпна. Опитайте отново.",
+    "CLAUDE_INVALID_RESPONSE": "AI прегледът не върна валиден резултат. Опитайте отново.",
+    "DIFF_TOO_LARGE": "Този pull request е твърде голям за преглед.",
+    "DIFF_EMPTY": "В този pull request не бяха намерени промени в кода за преглед.",
+    "DB_ERROR": "Неуспешна връзка с базата данни. Опитайте отново.",
+    "VALIDATION_ERROR": "Невалидна заявка.",
+    "NOT_FOUND": "Не е намерено.",
+    "UNKNOWN": "Нещо се обърка. Опитайте отново.",
+    "NETWORK_ERROR": "Неуспешна връзка със сървъра. Опитайте отново."
+  }
+}

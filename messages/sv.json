@@ -1,0 +1,72 @@
+{
+  "Landing": {
+    "badge": "AI-driven granskning av pull requests",
+    "title": "AI-kodgranskning för GitHub",
+    "subtitle": "Hitta buggar, säkerhetsproblem och prestandaproblem innan de når produktion.",
+    "connectGithub": "Anslut GitHub",
+    "categoryBugs": "Buggar",
+    "categorySecurity": "Säkerhet",
+    "categoryPerformance": "Prestanda",
+    "categoryCodeQuality": "Kodkvalitet",
+    "categoryMissingTests": "Saknade tester",
+    "footerTagline": "Calytrix granskar pull request-diffar med Claude. Din kod körs aldrig.",
+    "footerCredit": "Skapad av Alperen Yavuz"
+  },
+  "Nav": { "signOut": "Logga ut" },
+  "Language": { "label": "Språk" },
+  "Dashboard": {
+    "title": "Dina repositories",
+    "subtitle": "Välj ett repository för att granska dess pull requests.",
+    "empty": "Inga repositories hittades i ditt GitHub-konto.",
+    "private": "Privat"
+  },
+  "Repo": {
+    "back": "Alla repositories",
+    "subtitle": "Välj en pull request att granska.",
+    "empty": "Inga pull requests hittades i detta repository.",
+    "updatedBy": "av {author} · uppdaterad {time}"
+  },
+  "Pull": {
+    "back": "Alla pull requests",
+    "mergeInfo": "{author} vill slå ihop <head>{headRef}</head> med <base>{baseRef}</base>",
+    "viewOnGithub": "Visa på GitHub",
+    "staleNotice": "Denna pull request har nya commits sedan senaste granskningen. Granska igen för aktuella resultat."
+  },
+  "Review": {
+    "lastReviewedAt": "Senast granskad {time}",
+    "summaryCount": "{count, plural, =0 {Inga betydande problem hittades} one {# problem hittades} other {# problem hittades}}",
+    "notReviewed": "Denna pull request har inte granskats än.",
+    "run": "Starta AI-granskning",
+    "rerun": "Granska igen",
+    "running": "Granskar…",
+    "noProblems": "Inga betydande problem hittades i denna pull request.",
+    "whyItMatters": "Varför det spelar roll",
+    "suggestedFix": "Föreslagen lösning"
+  },
+  "Severity": { "CRITICAL": "Kritisk", "HIGH": "Hög", "MEDIUM": "Medel", "LOW": "Låg" },
+  "Category": {
+    "BUG": "Bugg",
+    "SECURITY": "Säkerhet",
+    "PERFORMANCE": "Prestanda",
+    "CODE_QUALITY": "Kodkvalitet",
+    "MISSING_TESTS": "Saknade tester"
+  },
+  "State": { "open": "öppen", "merged": "sammanslagen", "closed": "stängd" },
+  "Errors": {
+    "title": "Något gick fel",
+    "UNAUTHORIZED": "Du måste logga in för att göra det.",
+    "GITHUB_AUTH_ERROR": "Din GitHub-anslutning är inte längre giltig. Logga in igen.",
+    "GITHUB_RATE_LIMIT": "GitHub API-gränsen har nåtts. Försök igen om några minuter.",
+    "GITHUB_NOT_FOUND": "Det begärda repositoryt eller pull requesten kunde inte hittas.",
+    "GITHUB_API_ERROR": "Kunde inte nå GitHub. Försök igen.",
+    "CLAUDE_API_ERROR": "AI-granskningstjänsten är för närvarande otillgänglig. Försök igen.",
+    "CLAUDE_INVALID_RESPONSE": "AI-granskningen gav inte ett giltigt resultat. Försök igen.",
+    "DIFF_TOO_LARGE": "Denna pull request är för stor för att granskas.",
+    "DIFF_EMPTY": "Inga granskningsbara kodändringar hittades i denna pull request.",
+    "DB_ERROR": "Kunde inte nå databasen. Försök igen.",
+    "VALIDATION_ERROR": "Ogiltig begäran.",
+    "NOT_FOUND": "Hittades inte.",
+    "UNKNOWN": "Något gick fel. Försök igen.",
+    "NETWORK_ERROR": "Kunde inte nå servern. Försök igen."
+  }
+}

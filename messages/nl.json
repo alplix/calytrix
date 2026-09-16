@@ -1,0 +1,72 @@
+{
+  "Landing": {
+    "badge": "AI-gestuurde pull request-review",
+    "title": "AI-codereview voor GitHub",
+    "subtitle": "Vind bugs, beveiligingsproblemen en performanceproblemen voordat ze in productie komen.",
+    "connectGithub": "Verbinden met GitHub",
+    "categoryBugs": "Bugs",
+    "categorySecurity": "Beveiliging",
+    "categoryPerformance": "Performance",
+    "categoryCodeQuality": "Codekwaliteit",
+    "categoryMissingTests": "Ontbrekende tests",
+    "footerTagline": "Calytrix beoordeelt pull request-diffs met Claude. Uw code wordt nooit uitgevoerd.",
+    "footerCredit": "Gebouwd door Alperen Yavuz"
+  },
+  "Nav": { "signOut": "Afmelden" },
+  "Language": { "label": "Taal" },
+  "Dashboard": {
+    "title": "Uw repositories",
+    "subtitle": "Kies een repository om de pull requests te bekijken.",
+    "empty": "Geen repositories gevonden in uw GitHub-account.",
+    "private": "Privé"
+  },
+  "Repo": {
+    "back": "Alle repositories",
+    "subtitle": "Selecteer een pull request om te beoordelen.",
+    "empty": "Geen pull requests gevonden in deze repository.",
+    "updatedBy": "door {author} · bijgewerkt {time}"
+  },
+  "Pull": {
+    "back": "Alle pull requests",
+    "mergeInfo": "{author} wil <head>{headRef}</head> samenvoegen met <base>{baseRef}</base>",
+    "viewOnGithub": "Bekijken op GitHub",
+    "staleNotice": "Deze pull request heeft nieuwe commits sinds de laatste review. Voer een nieuwe review uit voor actuele resultaten."
+  },
+  "Review": {
+    "lastReviewedAt": "Laatst beoordeeld {time}",
+    "summaryCount": "{count, plural, =0 {Geen significante problemen gevonden} one {# probleem gevonden} other {# problemen gevonden}}",
+    "notReviewed": "Deze pull request is nog niet beoordeeld.",
+    "run": "AI-review starten",
+    "rerun": "Opnieuw beoordelen",
+    "running": "Bezig met beoordelen…",
+    "noProblems": "Er zijn geen significante problemen gevonden in deze pull request.",
+    "whyItMatters": "Waarom dit belangrijk is",
+    "suggestedFix": "Voorgestelde oplossing"
+  },
+  "Severity": { "CRITICAL": "Kritiek", "HIGH": "Hoog", "MEDIUM": "Gemiddeld", "LOW": "Laag" },
+  "Category": {
+    "BUG": "Bug",
+    "SECURITY": "Beveiliging",
+    "PERFORMANCE": "Performance",
+    "CODE_QUALITY": "Codekwaliteit",
+    "MISSING_TESTS": "Ontbrekende tests"
+  },
+  "State": { "open": "open", "merged": "samengevoegd", "closed": "gesloten" },
+  "Errors": {
+    "title": "Er is iets misgegaan",
+    "UNAUTHORIZED": "U moet inloggen om dit te doen.",
+    "GITHUB_AUTH_ERROR": "Uw GitHub-verbinding is niet meer geldig. Log opnieuw in.",
+    "GITHUB_RATE_LIMIT": "GitHub API-limiet bereikt. Probeer het over een paar minuten opnieuw.",
+    "GITHUB_NOT_FOUND": "De opgevraagde repository of pull request is niet gevonden.",
+    "GITHUB_API_ERROR": "Kan geen verbinding maken met GitHub. Probeer het opnieuw.",
+    "CLAUDE_API_ERROR": "De AI-reviewservice is momenteel niet beschikbaar. Probeer het opnieuw.",
+    "CLAUDE_INVALID_RESPONSE": "De AI-review gaf geen geldig resultaat. Probeer het opnieuw.",
+    "DIFF_TOO_LARGE": "Deze pull request is te groot om te beoordelen.",
+    "DIFF_EMPTY": "Er zijn geen te beoordelen codewijzigingen gevonden in deze pull request.",
+    "DB_ERROR": "Kan geen verbinding maken met de database. Probeer het opnieuw.",
+    "VALIDATION_ERROR": "Ongeldig verzoek.",
+    "NOT_FOUND": "Niet gevonden.",
+    "UNKNOWN": "Er is iets misgegaan. Probeer het opnieuw.",
+    "NETWORK_ERROR": "Kan geen verbinding maken met de server. Probeer het opnieuw."
+  }
+}

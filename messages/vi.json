@@ -1,0 +1,72 @@
+{
+  "Landing": {
+    "badge": "Đánh giá pull request bằng AI",
+    "title": "Đánh giá mã nguồn bằng AI cho GitHub",
+    "subtitle": "Phát hiện lỗi, các vấn đề bảo mật và hiệu năng trước khi chúng lên môi trường production.",
+    "connectGithub": "Kết nối GitHub",
+    "categoryBugs": "Lỗi",
+    "categorySecurity": "Bảo mật",
+    "categoryPerformance": "Hiệu năng",
+    "categoryCodeQuality": "Chất lượng mã nguồn",
+    "categoryMissingTests": "Thiếu test",
+    "footerTagline": "Calytrix xem xét diff của pull request bằng Claude. Nó không bao giờ chạy mã nguồn của bạn.",
+    "footerCredit": "Được phát triển bởi Alperen Yavuz"
+  },
+  "Nav": { "signOut": "Đăng xuất" },
+  "Language": { "label": "Ngôn ngữ" },
+  "Dashboard": {
+    "title": "Repository của bạn",
+    "subtitle": "Chọn một repository để xem xét các pull request của nó.",
+    "empty": "Không tìm thấy repository nào trong tài khoản GitHub của bạn.",
+    "private": "Riêng tư"
+  },
+  "Repo": {
+    "back": "Tất cả repository",
+    "subtitle": "Chọn một pull request để đánh giá.",
+    "empty": "Không tìm thấy pull request nào trong repository này.",
+    "updatedBy": "bởi {author} · cập nhật {time}"
+  },
+  "Pull": {
+    "back": "Tất cả pull request",
+    "mergeInfo": "{author} muốn merge <head>{headRef}</head> vào <base>{baseRef}</base>",
+    "viewOnGithub": "Xem trên GitHub",
+    "staleNotice": "Pull request này có commit mới kể từ lần đánh giá gần nhất. Hãy đánh giá lại để có kết quả mới nhất."
+  },
+  "Review": {
+    "lastReviewedAt": "Đánh giá lần cuối {time}",
+    "summaryCount": "{count, plural, =0 {Không tìm thấy vấn đề đáng chú ý nào} other {Tìm thấy # vấn đề}}",
+    "notReviewed": "Pull request này chưa được đánh giá.",
+    "run": "Chạy đánh giá AI",
+    "rerun": "Đánh giá lại",
+    "running": "Đang đánh giá…",
+    "noProblems": "Không tìm thấy vấn đề đáng chú ý nào trong pull request này.",
+    "whyItMatters": "Tại sao điều này quan trọng",
+    "suggestedFix": "Giải pháp đề xuất"
+  },
+  "Severity": { "CRITICAL": "Nghiêm trọng", "HIGH": "Cao", "MEDIUM": "Trung bình", "LOW": "Thấp" },
+  "Category": {
+    "BUG": "Lỗi",
+    "SECURITY": "Bảo mật",
+    "PERFORMANCE": "Hiệu năng",
+    "CODE_QUALITY": "Chất lượng mã nguồn",
+    "MISSING_TESTS": "Thiếu test"
+  },
+  "State": { "open": "đang mở", "merged": "đã merge", "closed": "đã đóng" },
+  "Errors": {
+    "title": "Đã xảy ra lỗi",
+    "UNAUTHORIZED": "Bạn cần đăng nhập để thực hiện việc này.",
+    "GITHUB_AUTH_ERROR": "Kết nối GitHub của bạn không còn hợp lệ. Vui lòng đăng nhập lại.",
+    "GITHUB_RATE_LIMIT": "Đã đạt giới hạn yêu cầu của GitHub API. Vui lòng thử lại sau vài phút.",
+    "GITHUB_NOT_FOUND": "Không tìm thấy repository hoặc pull request được yêu cầu.",
+    "GITHUB_API_ERROR": "Không thể kết nối tới GitHub. Vui lòng thử lại.",
+    "CLAUDE_API_ERROR": "Dịch vụ đánh giá AI hiện không khả dụng. Vui lòng thử lại.",
+    "CLAUDE_INVALID_RESPONSE": "Đánh giá AI không trả về kết quả hợp lệ. Vui lòng thử lại.",
+    "DIFF_TOO_LARGE": "Pull request này quá lớn để đánh giá.",
+    "DIFF_EMPTY": "Không tìm thấy thay đổi mã nguồn nào có thể đánh giá trong pull request này.",
+    "DB_ERROR": "Không thể kết nối tới cơ sở dữ liệu. Vui lòng thử lại.",
+    "VALIDATION_ERROR": "Yêu cầu không hợp lệ.",
+    "NOT_FOUND": "Không tìm thấy.",
+    "UNKNOWN": "Đã xảy ra lỗi. Vui lòng thử lại.",
+    "NETWORK_ERROR": "Không thể kết nối tới máy chủ. Vui lòng thử lại."
+  }
+}

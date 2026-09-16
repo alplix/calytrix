@@ -1,0 +1,72 @@
+{
+  "Landing": {
+    "badge": "Проверка pull request с помощью ИИ",
+    "title": "ИИ-проверка кода для GitHub",
+    "subtitle": "Находите баги, уязвимости и проблемы производительности до того, как они попадут в продакшн.",
+    "connectGithub": "Подключить GitHub",
+    "categoryBugs": "Баги",
+    "categorySecurity": "Безопасность",
+    "categoryPerformance": "Производительность",
+    "categoryCodeQuality": "Качество кода",
+    "categoryMissingTests": "Отсутствующие тесты",
+    "footerTagline": "Calytrix проверяет diff'ы pull request'ов с помощью Claude. Ваш код никогда не запускается.",
+    "footerCredit": "Разработано Alperen Yavuz"
+  },
+  "Nav": { "signOut": "Выйти" },
+  "Language": { "label": "Язык" },
+  "Dashboard": {
+    "title": "Ваши репозитории",
+    "subtitle": "Выберите репозиторий, чтобы просмотреть его pull request'ы.",
+    "empty": "В вашем аккаунте GitHub не найдено репозиториев.",
+    "private": "Приватный"
+  },
+  "Repo": {
+    "back": "Все репозитории",
+    "subtitle": "Выберите pull request для проверки.",
+    "empty": "В этом репозитории не найдено pull request'ов.",
+    "updatedBy": "автор {author} · обновлено {time}"
+  },
+  "Pull": {
+    "back": "Все pull request'ы",
+    "mergeInfo": "{author} хочет слить <head>{headRef}</head> в <base>{baseRef}</base>",
+    "viewOnGithub": "Посмотреть на GitHub",
+    "staleNotice": "В этом pull request'е появились новые коммиты после последней проверки. Запустите проверку заново для актуальных результатов."
+  },
+  "Review": {
+    "lastReviewedAt": "Последняя проверка {time}",
+    "summaryCount": "{count, plural, =0 {Существенных проблем не найдено} one {Найдена # проблема} few {Найдены # проблемы} many {Найдено # проблем} other {Найдено # проблемы}}",
+    "notReviewed": "Этот pull request ещё не проверялся.",
+    "run": "Запустить ИИ-проверку",
+    "rerun": "Проверить заново",
+    "running": "Проверка…",
+    "noProblems": "В этом pull request'е существенных проблем не найдено.",
+    "whyItMatters": "Почему это важно",
+    "suggestedFix": "Предлагаемое решение"
+  },
+  "Severity": { "CRITICAL": "Критическая", "HIGH": "Высокая", "MEDIUM": "Средняя", "LOW": "Низкая" },
+  "Category": {
+    "BUG": "Баг",
+    "SECURITY": "Безопасность",
+    "PERFORMANCE": "Производительность",
+    "CODE_QUALITY": "Качество кода",
+    "MISSING_TESTS": "Отсутствующие тесты"
+  },
+  "State": { "open": "открыт", "merged": "слит", "closed": "закрыт" },
+  "Errors": {
+    "title": "Что-то пошло не так",
+    "UNAUTHORIZED": "Для этого действия нужно войти в систему.",
+    "GITHUB_AUTH_ERROR": "Ваше подключение к GitHub больше не действительно. Пожалуйста, войдите снова.",
+    "GITHUB_RATE_LIMIT": "Достигнут лимит запросов GitHub API. Повторите попытку через несколько минут.",
+    "GITHUB_NOT_FOUND": "Запрошенный репозиторий или pull request не найден.",
+    "GITHUB_API_ERROR": "Не удалось подключиться к GitHub. Попробуйте снова.",
+    "CLAUDE_API_ERROR": "Сервис ИИ-проверки сейчас недоступен. Попробуйте снова.",
+    "CLAUDE_INVALID_RESPONSE": "ИИ-проверка не вернула корректный результат. Попробуйте снова.",
+    "DIFF_TOO_LARGE": "Этот pull request слишком большой для проверки.",
+    "DIFF_EMPTY": "В этом pull request'е не найдено изменений кода для проверки.",
+    "DB_ERROR": "Не удалось подключиться к базе данных. Попробуйте снова.",
+    "VALIDATION_ERROR": "Некорректный запрос.",
+    "NOT_FOUND": "Не найдено.",
+    "UNKNOWN": "Что-то пошло не так. Попробуйте снова.",
+    "NETWORK_ERROR": "Не удалось подключиться к серверу. Попробуйте снова."
+  }
+}

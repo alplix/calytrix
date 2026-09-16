@@ -1,0 +1,72 @@
+{
+  "Landing": {
+    "badge": "Revisione delle pull request con IA",
+    "title": "Revisione del codice con IA per GitHub",
+    "subtitle": "Trova bug, problemi di sicurezza e di performance prima che arrivino in produzione.",
+    "connectGithub": "Connetti GitHub",
+    "categoryBugs": "Bug",
+    "categorySecurity": "Sicurezza",
+    "categoryPerformance": "Performance",
+    "categoryCodeQuality": "Qualità del codice",
+    "categoryMissingTests": "Test mancanti",
+    "footerTagline": "Calytrix analizza i diff delle pull request con Claude. Non esegue mai il tuo codice.",
+    "footerCredit": "Sviluppato da Alperen Yavuz"
+  },
+  "Nav": { "signOut": "Disconnetti" },
+  "Language": { "label": "Lingua" },
+  "Dashboard": {
+    "title": "I tuoi repository",
+    "subtitle": "Scegli un repository per esaminarne le pull request.",
+    "empty": "Nessun repository trovato nel tuo account GitHub.",
+    "private": "Privato"
+  },
+  "Repo": {
+    "back": "Tutti i repository",
+    "subtitle": "Seleziona una pull request da esaminare.",
+    "empty": "Nessuna pull request trovata in questo repository.",
+    "updatedBy": "di {author} · aggiornato {time}"
+  },
+  "Pull": {
+    "back": "Tutte le pull request",
+    "mergeInfo": "{author} vuole unire <head>{headRef}</head> in <base>{baseRef}</base>",
+    "viewOnGithub": "Visualizza su GitHub",
+    "staleNotice": "Questa pull request ha nuovi commit dall'ultima revisione. Esegui una nuova revisione per risultati aggiornati."
+  },
+  "Review": {
+    "lastReviewedAt": "Ultima revisione {time}",
+    "summaryCount": "{count, plural, =0 {Nessun problema significativo trovato} one {# problema trovato} other {# problemi trovati}}",
+    "notReviewed": "Questa pull request non è ancora stata revisionata.",
+    "run": "Avvia revisione IA",
+    "rerun": "Rivedi di nuovo",
+    "running": "Revisione in corso…",
+    "noProblems": "Non sono stati trovati problemi significativi in questa pull request.",
+    "whyItMatters": "Perché è importante",
+    "suggestedFix": "Soluzione suggerita"
+  },
+  "Severity": { "CRITICAL": "Critica", "HIGH": "Alta", "MEDIUM": "Media", "LOW": "Bassa" },
+  "Category": {
+    "BUG": "Bug",
+    "SECURITY": "Sicurezza",
+    "PERFORMANCE": "Performance",
+    "CODE_QUALITY": "Qualità del codice",
+    "MISSING_TESTS": "Test mancanti"
+  },
+  "State": { "open": "aperta", "merged": "unita", "closed": "chiusa" },
+  "Errors": {
+    "title": "Qualcosa è andato storto",
+    "UNAUTHORIZED": "Devi accedere per farlo.",
+    "GITHUB_AUTH_ERROR": "La tua connessione a GitHub non è più valida. Accedi di nuovo.",
+    "GITHUB_RATE_LIMIT": "Limite di richieste GitHub raggiunto. Riprova tra qualche minuto.",
+    "GITHUB_NOT_FOUND": "Repository o pull request richiesti non trovati.",
+    "GITHUB_API_ERROR": "Impossibile contattare GitHub. Riprova.",
+    "CLAUDE_API_ERROR": "Il servizio di revisione IA non è al momento disponibile. Riprova.",
+    "CLAUDE_INVALID_RESPONSE": "La revisione IA non ha restituito un risultato valido. Riprova.",
+    "DIFF_TOO_LARGE": "Questa pull request è troppo grande per essere revisionata.",
+    "DIFF_EMPTY": "Nessuna modifica di codice revisionabile trovata in questa pull request.",
+    "DB_ERROR": "Impossibile contattare il database. Riprova.",
+    "VALIDATION_ERROR": "Richiesta non valida.",
+    "NOT_FOUND": "Non trovato.",
+    "UNKNOWN": "Qualcosa è andato storto. Riprova.",
+    "NETWORK_ERROR": "Impossibile contattare il server. Riprova."
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "Landing": {
+    "badge": "AI 驱动的 Pull Request 审查",
+    "title": "面向 GitHub 的 AI 代码审查",
+    "subtitle": "在问题进入生产环境之前，发现其中的错误、安全隐患和性能问题。",
+    "connectGithub": "连接 GitHub",
+    "categoryBugs": "错误",
+    "categorySecurity": "安全",
+    "categoryPerformance": "性能",
+    "categoryCodeQuality": "代码质量",
+    "categoryMissingTests": "缺失测试",
+    "footerTagline": "Calytrix 使用 Claude 审查 Pull Request 的差异内容，绝不会运行您的代码。",
+    "footerCredit": "由 Alperen Yavuz 开发"
+  },
+  "Nav": { "signOut": "退出登录" },
+  "Language": { "label": "语言" },
+  "Dashboard": {
+    "title": "您的仓库",
+    "subtitle": "选择一个仓库以查看其 Pull Request。",
+    "empty": "在您的 GitHub 账户中未找到任何仓库。",
+    "private": "私有"
+  },
+  "Repo": {
+    "back": "所有仓库",
+    "subtitle": "选择要审查的 Pull Request。",
+    "empty": "此仓库中未找到 Pull Request。",
+    "updatedBy": "由 {author} 更新 · {time}"
+  },
+  "Pull": {
+    "back": "所有 Pull Request",
+    "mergeInfo": "{author} 想要将 <head>{headRef}</head> 合并到 <base>{baseRef}</base>",
+    "viewOnGithub": "在 GitHub 上查看",
+    "staleNotice": "自上次审查以来，此 Pull Request 有了新的提交。请重新审查以获取最新结果。"
+  },
+  "Review": {
+    "lastReviewedAt": "上次审查时间：{time}",
+    "summaryCount": "{count, plural, =0 {未发现重大问题} other {发现 # 个问题}}",
+    "notReviewed": "此 Pull Request 尚未被审查。",
+    "run": "运行 AI 审查",
+    "rerun": "重新审查",
+    "running": "审查中…",
+    "noProblems": "此 Pull Request 中未发现重大问题。",
+    "whyItMatters": "为什么这很重要",
+    "suggestedFix": "建议的修复方案"
+  },
+  "Severity": { "CRITICAL": "严重", "HIGH": "高", "MEDIUM": "中", "LOW": "低" },
+  "Category": {
+    "BUG": "错误",
+    "SECURITY": "安全",
+    "PERFORMANCE": "性能",
+    "CODE_QUALITY": "代码质量",
+    "MISSING_TESTS": "缺失测试"
+  },
+  "State": { "open": "打开", "merged": "已合并", "closed": "已关闭" },
+  "Errors": {
+    "title": "出了点问题",
+    "UNAUTHORIZED": "您需要登录才能执行此操作。",
+    "GITHUB_AUTH_ERROR": "您的 GitHub 连接已失效，请重新登录。",
+    "GITHUB_RATE_LIMIT": "已达到 GitHub API 请求限制，请几分钟后再试。",
+    "GITHUB_NOT_FOUND": "未找到请求的仓库或 Pull Request。",
+    "GITHUB_API_ERROR": "无法连接到 GitHub，请重试。",
+    "CLAUDE_API_ERROR": "AI 审查服务当前不可用，请重试。",
+    "CLAUDE_INVALID_RESPONSE": "AI 审查未返回有效结果，请重试。",
+    "DIFF_TOO_LARGE": "此 Pull Request 过大，无法审查。",
+    "DIFF_EMPTY": "在此 Pull Request 中未找到可审查的代码更改。",
+    "DB_ERROR": "无法连接到数据库，请重试。",
+    "VALIDATION_ERROR": "无效请求。",
+    "NOT_FOUND": "未找到。",
+    "UNKNOWN": "出了点问题，请重试。",
+    "NETWORK_ERROR": "无法连接到服务器，请重试。"
+  }
+}

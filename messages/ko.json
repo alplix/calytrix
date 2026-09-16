@@ -1,0 +1,72 @@
+{
+  "Landing": {
+    "badge": "AI 기반 풀 리퀘스트 리뷰",
+    "title": "GitHub를 위한 AI 코드 리뷰",
+    "subtitle": "버그, 보안 문제, 성능 문제를 프로덕션에 반영되기 전에 찾아냅니다.",
+    "connectGithub": "GitHub 연결하기",
+    "categoryBugs": "버그",
+    "categorySecurity": "보안",
+    "categoryPerformance": "성능",
+    "categoryCodeQuality": "코드 품질",
+    "categoryMissingTests": "누락된 테스트",
+    "footerTagline": "Calytrix는 Claude를 사용하여 풀 리퀘스트의 diff를 검토합니다. 코드를 직접 실행하지 않습니다.",
+    "footerCredit": "Alperen Yavuz 제작"
+  },
+  "Nav": { "signOut": "로그아웃" },
+  "Language": { "label": "언어" },
+  "Dashboard": {
+    "title": "내 저장소",
+    "subtitle": "풀 리퀘스트를 검토할 저장소를 선택하세요.",
+    "empty": "GitHub 계정에서 저장소를 찾을 수 없습니다.",
+    "private": "비공개"
+  },
+  "Repo": {
+    "back": "모든 저장소",
+    "subtitle": "검토할 풀 리퀘스트를 선택하세요.",
+    "empty": "이 저장소에서 풀 리퀘스트를 찾을 수 없습니다.",
+    "updatedBy": "{author} · {time} 업데이트됨"
+  },
+  "Pull": {
+    "back": "모든 풀 리퀘스트",
+    "mergeInfo": "{author}님이 <head>{headRef}</head>을(를) <base>{baseRef}</base>에 병합하려고 합니다",
+    "viewOnGithub": "GitHub에서 보기",
+    "staleNotice": "이 풀 리퀘스트에는 마지막 리뷰 이후 새로운 커밋이 있습니다. 최신 결과를 보려면 다시 리뷰하세요."
+  },
+  "Review": {
+    "lastReviewedAt": "마지막 리뷰: {time}",
+    "summaryCount": "{count, plural, =0 {중요한 문제가 발견되지 않았습니다} other {문제 #건 발견됨}}",
+    "notReviewed": "이 풀 리퀘스트는 아직 리뷰되지 않았습니다.",
+    "run": "AI 리뷰 실행",
+    "rerun": "다시 리뷰",
+    "running": "리뷰 중…",
+    "noProblems": "이 풀 리퀘스트에서 중요한 문제가 발견되지 않았습니다.",
+    "whyItMatters": "중요한 이유",
+    "suggestedFix": "제안된 수정 방법"
+  },
+  "Severity": { "CRITICAL": "치명적", "HIGH": "높음", "MEDIUM": "보통", "LOW": "낮음" },
+  "Category": {
+    "BUG": "버그",
+    "SECURITY": "보안",
+    "PERFORMANCE": "성능",
+    "CODE_QUALITY": "코드 품질",
+    "MISSING_TESTS": "누락된 테스트"
+  },
+  "State": { "open": "열림", "merged": "병합됨", "closed": "닫힘" },
+  "Errors": {
+    "title": "문제가 발생했습니다",
+    "UNAUTHORIZED": "이 작업을 수행하려면 로그인이 필요합니다.",
+    "GITHUB_AUTH_ERROR": "GitHub 연결이 더 이상 유효하지 않습니다. 다시 로그인해 주세요.",
+    "GITHUB_RATE_LIMIT": "GitHub API 요청 한도에 도달했습니다. 몇 분 후에 다시 시도해 주세요.",
+    "GITHUB_NOT_FOUND": "요청한 저장소 또는 풀 리퀘스트를 찾을 수 없습니다.",
+    "GITHUB_API_ERROR": "GitHub에 연결할 수 없습니다. 다시 시도해 주세요.",
+    "CLAUDE_API_ERROR": "AI 리뷰 서비스를 현재 사용할 수 없습니다. 다시 시도해 주세요.",
+    "CLAUDE_INVALID_RESPONSE": "AI 리뷰가 유효한 결과를 반환하지 않았습니다. 다시 시도해 주세요.",
+    "DIFF_TOO_LARGE": "이 풀 리퀘스트는 리뷰하기에 너무 큽니다.",
+    "DIFF_EMPTY": "이 풀 리퀘스트에서 리뷰할 수 있는 코드 변경 사항을 찾을 수 없습니다.",
+    "DB_ERROR": "데이터베이스에 연결할 수 없습니다. 다시 시도해 주세요.",
+    "VALIDATION_ERROR": "잘못된 요청입니다.",
+    "NOT_FOUND": "찾을 수 없습니다.",
+    "UNKNOWN": "문제가 발생했습니다. 다시 시도해 주세요.",
+    "NETWORK_ERROR": "서버에 연결할 수 없습니다. 다시 시도해 주세요."
+  }
+}

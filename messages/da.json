@@ -1,0 +1,72 @@
+{
+  "Landing": {
+    "badge": "AI-drevet gennemgang af pull requests",
+    "title": "AI-kodegennemgang til GitHub",
+    "subtitle": "Find fejl, sikkerhedsproblemer og performanceproblemer, før de når produktion.",
+    "connectGithub": "Forbind GitHub",
+    "categoryBugs": "Fejl",
+    "categorySecurity": "Sikkerhed",
+    "categoryPerformance": "Performance",
+    "categoryCodeQuality": "Kodekvalitet",
+    "categoryMissingTests": "Manglende tests",
+    "footerTagline": "Calytrix gennemgår pull request-diffs med Claude. Din kode bliver aldrig kørt.",
+    "footerCredit": "Udviklet af Alperen Yavuz"
+  },
+  "Nav": { "signOut": "Log ud" },
+  "Language": { "label": "Sprog" },
+  "Dashboard": {
+    "title": "Dine repositories",
+    "subtitle": "Vælg et repository for at gennemgå dets pull requests.",
+    "empty": "Ingen repositories fundet på din GitHub-konto.",
+    "private": "Privat"
+  },
+  "Repo": {
+    "back": "Alle repositories",
+    "subtitle": "Vælg en pull request til gennemgang.",
+    "empty": "Ingen pull requests fundet i dette repository.",
+    "updatedBy": "af {author} · opdateret {time}"
+  },
+  "Pull": {
+    "back": "Alle pull requests",
+    "mergeInfo": "{author} vil merge <head>{headRef}</head> ind i <base>{baseRef}</base>",
+    "viewOnGithub": "Se på GitHub",
+    "staleNotice": "Denne pull request har nye commits siden sidste gennemgang. Gennemgå igen for opdaterede resultater."
+  },
+  "Review": {
+    "lastReviewedAt": "Sidst gennemgået {time}",
+    "summaryCount": "{count, plural, =0 {Ingen væsentlige problemer fundet} one {# problem fundet} other {# problemer fundet}}",
+    "notReviewed": "Denne pull request er endnu ikke gennemgået.",
+    "run": "Start AI-gennemgang",
+    "rerun": "Gennemgå igen",
+    "running": "Gennemgår…",
+    "noProblems": "Ingen væsentlige problemer blev fundet i denne pull request.",
+    "whyItMatters": "Hvorfor det betyder noget",
+    "suggestedFix": "Foreslået løsning"
+  },
+  "Severity": { "CRITICAL": "Kritisk", "HIGH": "Høj", "MEDIUM": "Middel", "LOW": "Lav" },
+  "Category": {
+    "BUG": "Fejl",
+    "SECURITY": "Sikkerhed",
+    "PERFORMANCE": "Performance",
+    "CODE_QUALITY": "Kodekvalitet",
+    "MISSING_TESTS": "Manglende tests"
+  },
+  "State": { "open": "åben", "merged": "sammenflettet", "closed": "lukket" },
+  "Errors": {
+    "title": "Noget gik galt",
+    "UNAUTHORIZED": "Du skal logge ind for at gøre det.",
+    "GITHUB_AUTH_ERROR": "Din GitHub-forbindelse er ikke længere gyldig. Log ind igen.",
+    "GITHUB_RATE_LIMIT": "GitHub API-grænsen er nået. Prøv igen om et par minutter.",
+    "GITHUB_NOT_FOUND": "Det ønskede repository eller pull request blev ikke fundet.",
+    "GITHUB_API_ERROR": "Kunne ikke forbinde til GitHub. Prøv igen.",
+    "CLAUDE_API_ERROR": "AI-gennemgangstjenesten er ikke tilgængelig lige nu. Prøv igen.",
+    "CLAUDE_INVALID_RESPONSE": "AI-gennemgangen returnerede ikke et gyldigt resultat. Prøv igen.",
+    "DIFF_TOO_LARGE": "Denne pull request er for stor til at blive gennemgået.",
+    "DIFF_EMPTY": "Ingen kodeændringer til gennemgang blev fundet i denne pull request.",
+    "DB_ERROR": "Kunne ikke forbinde til databasen. Prøv igen.",
+    "VALIDATION_ERROR": "Ugyldig forespørgsel.",
+    "NOT_FOUND": "Ikke fundet.",
+    "UNKNOWN": "Noget gik galt. Prøv igen.",
+    "NETWORK_ERROR": "Kunne ikke forbinde til serveren. Prøv igen."
+  }
+}

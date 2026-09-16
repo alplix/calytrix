@@ -1,0 +1,72 @@
+{
+  "Landing": {
+    "badge": "Revisión de pull requests con IA",
+    "title": "Revisión de código con IA para GitHub",
+    "subtitle": "Detecta bugs, problemas de seguridad y de rendimiento antes de que lleguen a producción.",
+    "connectGithub": "Conectar con GitHub",
+    "categoryBugs": "Bugs",
+    "categorySecurity": "Seguridad",
+    "categoryPerformance": "Rendimiento",
+    "categoryCodeQuality": "Calidad de código",
+    "categoryMissingTests": "Tests faltantes",
+    "footerTagline": "Calytrix revisa los diffs de pull requests con Claude. Nunca ejecuta tu código.",
+    "footerCredit": "Creado por Alperen Yavuz"
+  },
+  "Nav": { "signOut": "Cerrar sesión" },
+  "Language": { "label": "Idioma" },
+  "Dashboard": {
+    "title": "Tus repositorios",
+    "subtitle": "Elige un repositorio para revisar sus pull requests.",
+    "empty": "No se encontraron repositorios en tu cuenta de GitHub.",
+    "private": "Privado"
+  },
+  "Repo": {
+    "back": "Todos los repositorios",
+    "subtitle": "Selecciona un pull request para revisar.",
+    "empty": "No se encontraron pull requests en este repositorio.",
+    "updatedBy": "por {author} · actualizado {time}"
+  },
+  "Pull": {
+    "back": "Todos los pull requests",
+    "mergeInfo": "{author} quiere fusionar <head>{headRef}</head> en <base>{baseRef}</base>",
+    "viewOnGithub": "Ver en GitHub",
+    "staleNotice": "Este pull request tiene nuevos commits desde la última revisión. Vuelve a revisarlo para obtener resultados actualizados."
+  },
+  "Review": {
+    "lastReviewedAt": "Última revisión {time}",
+    "summaryCount": "{count, plural, =0 {No se encontraron problemas importantes} one {# problema encontrado} other {# problemas encontrados}}",
+    "notReviewed": "Este pull request aún no ha sido revisado.",
+    "run": "Ejecutar revisión con IA",
+    "rerun": "Volver a revisar",
+    "running": "Revisando…",
+    "noProblems": "No se encontraron problemas importantes en este pull request.",
+    "whyItMatters": "Por qué es importante",
+    "suggestedFix": "Solución sugerida"
+  },
+  "Severity": { "CRITICAL": "Crítica", "HIGH": "Alta", "MEDIUM": "Media", "LOW": "Baja" },
+  "Category": {
+    "BUG": "Bug",
+    "SECURITY": "Seguridad",
+    "PERFORMANCE": "Rendimiento",
+    "CODE_QUALITY": "Calidad de código",
+    "MISSING_TESTS": "Tests faltantes"
+  },
+  "State": { "open": "abierto", "merged": "fusionado", "closed": "cerrado" },
+  "Errors": {
+    "title": "Algo salió mal",
+    "UNAUTHORIZED": "Necesitas iniciar sesión para hacer eso.",
+    "GITHUB_AUTH_ERROR": "Tu conexión con GitHub ya no es válida. Vuelve a iniciar sesión.",
+    "GITHUB_RATE_LIMIT": "Se alcanzó el límite de la API de GitHub. Inténtalo de nuevo en unos minutos.",
+    "GITHUB_NOT_FOUND": "No se encontró el repositorio o pull request solicitado.",
+    "GITHUB_API_ERROR": "No se pudo conectar con GitHub. Inténtalo de nuevo.",
+    "CLAUDE_API_ERROR": "El servicio de revisión con IA no está disponible en este momento. Inténtalo de nuevo.",
+    "CLAUDE_INVALID_RESPONSE": "La revisión con IA no devolvió un resultado válido. Inténtalo de nuevo.",
+    "DIFF_TOO_LARGE": "Este pull request es demasiado grande para revisarlo.",
+    "DIFF_EMPTY": "No se encontraron cambios de código revisables en este pull request.",
+    "DB_ERROR": "No se pudo conectar con la base de datos. Inténtalo de nuevo.",
+    "VALIDATION_ERROR": "Solicitud no válida.",
+    "NOT_FOUND": "No encontrado.",
+    "UNKNOWN": "Algo salió mal. Inténtalo de nuevo.",
+    "NETWORK_ERROR": "No se pudo conectar con el servidor. Inténtalo de nuevo."
+  }
+}

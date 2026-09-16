@@ -1,0 +1,72 @@
+{
+  "Landing": {
+    "badge": "DI pagrįsta pull request peržiūra",
+    "title": "DI kodo peržiūra GitHub",
+    "subtitle": "Aptikite klaidas, saugumo ir našumo problemas, kol jos dar nepasiekė gamybos.",
+    "connectGithub": "Prijungti GitHub",
+    "categoryBugs": "Klaidos",
+    "categorySecurity": "Saugumas",
+    "categoryPerformance": "Našumas",
+    "categoryCodeQuality": "Kodo kokybė",
+    "categoryMissingTests": "Trūkstami testai",
+    "footerTagline": "Calytrix peržiūri pull request pakeitimus naudodama Claude. Ji niekada nevykdo jūsų kodo.",
+    "footerCredit": "Sukūrė Alperen Yavuz"
+  },
+  "Nav": { "signOut": "Atsijungti" },
+  "Language": { "label": "Kalba" },
+  "Dashboard": {
+    "title": "Jūsų saugyklos",
+    "subtitle": "Pasirinkite saugyklą, kad peržiūrėtumėte jos pull request'us.",
+    "empty": "Jūsų GitHub paskyroje saugyklų nerasta.",
+    "private": "Privati"
+  },
+  "Repo": {
+    "back": "Visos saugyklos",
+    "subtitle": "Pasirinkite pull request peržiūrai.",
+    "empty": "Šioje saugykloje pull request'ų nerasta.",
+    "updatedBy": "autorius {author} · atnaujinta {time}"
+  },
+  "Pull": {
+    "back": "Visi pull request'ai",
+    "mergeInfo": "{author} nori sulieti <head>{headRef}</head> į <base>{baseRef}</base>",
+    "viewOnGithub": "Žiūrėti GitHub",
+    "staleNotice": "Šiame pull request'e yra naujų commit'ų nuo paskutinės peržiūros. Peržiūrėkite iš naujo, kad gautumėte naujausius rezultatus."
+  },
+  "Review": {
+    "lastReviewedAt": "Paskutinį kartą peržiūrėta {time}",
+    "summaryCount": "{count, plural, =0 {Reikšmingų problemų nerasta} one {Rasta # problema} few {Rastos # problemos} other {Rasta # problemų}}",
+    "notReviewed": "Šis pull request dar nebuvo peržiūrėtas.",
+    "run": "Pradėti DI peržiūrą",
+    "rerun": "Peržiūrėti iš naujo",
+    "running": "Peržiūrima…",
+    "noProblems": "Šiame pull request'e reikšmingų problemų nerasta.",
+    "whyItMatters": "Kodėl tai svarbu",
+    "suggestedFix": "Siūlomas sprendimas"
+  },
+  "Severity": { "CRITICAL": "Kritinė", "HIGH": "Aukšta", "MEDIUM": "Vidutinė", "LOW": "Žema" },
+  "Category": {
+    "BUG": "Klaida",
+    "SECURITY": "Saugumas",
+    "PERFORMANCE": "Našumas",
+    "CODE_QUALITY": "Kodo kokybė",
+    "MISSING_TESTS": "Trūkstami testai"
+  },
+  "State": { "open": "atviras", "merged": "sulietas", "closed": "uždarytas" },
+  "Errors": {
+    "title": "Kažkas nutiko ne taip",
+    "UNAUTHORIZED": "Norėdami tai padaryti, turite prisijungti.",
+    "GITHUB_AUTH_ERROR": "Jūsų GitHub ryšys nebegalioja. Prisijunkite iš naujo.",
+    "GITHUB_RATE_LIMIT": "Pasiektas GitHub API užklausų limitas. Bandykite dar kartą po kelių minučių.",
+    "GITHUB_NOT_FOUND": "Prašoma saugykla arba pull request nerasti.",
+    "GITHUB_API_ERROR": "Nepavyko prisijungti prie GitHub. Bandykite dar kartą.",
+    "CLAUDE_API_ERROR": "DI peržiūros paslauga šiuo metu nepasiekiama. Bandykite dar kartą.",
+    "CLAUDE_INVALID_RESPONSE": "DI peržiūra negrąžino galiojančio rezultato. Bandykite dar kartą.",
+    "DIFF_TOO_LARGE": "Šis pull request yra per didelis peržiūrai.",
+    "DIFF_EMPTY": "Šiame pull request'e nerasta peržiūrimų kodo pakeitimų.",
+    "DB_ERROR": "Nepavyko prisijungti prie duomenų bazės. Bandykite dar kartą.",
+    "VALIDATION_ERROR": "Neteisinga užklausa.",
+    "NOT_FOUND": "Nerasta.",
+    "UNKNOWN": "Kažkas nutiko ne taip. Bandykite dar kartą.",
+    "NETWORK_ERROR": "Nepavyko prisijungti prie serverio. Bandykite dar kartą."
+  }
+}

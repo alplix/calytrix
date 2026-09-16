@@ -1,0 +1,72 @@
+{
+  "Landing": {
+    "badge": "Przegląd pull requestów wspierany przez AI",
+    "title": "Przegląd kodu AI dla GitHub",
+    "subtitle": "Wykrywaj błędy, luki bezpieczeństwa i problemy z wydajnością, zanim trafią na produkcję.",
+    "connectGithub": "Połącz z GitHub",
+    "categoryBugs": "Błędy",
+    "categorySecurity": "Bezpieczeństwo",
+    "categoryPerformance": "Wydajność",
+    "categoryCodeQuality": "Jakość kodu",
+    "categoryMissingTests": "Brakujące testy",
+    "footerTagline": "Calytrix analizuje diffy pull requestów za pomocą Claude. Nigdy nie uruchamia Twojego kodu.",
+    "footerCredit": "Stworzone przez Alperen Yavuz"
+  },
+  "Nav": { "signOut": "Wyloguj się" },
+  "Language": { "label": "Język" },
+  "Dashboard": {
+    "title": "Twoje repozytoria",
+    "subtitle": "Wybierz repozytorium, aby przejrzeć jego pull requesty.",
+    "empty": "Nie znaleziono repozytoriów na Twoim koncie GitHub.",
+    "private": "Prywatne"
+  },
+  "Repo": {
+    "back": "Wszystkie repozytoria",
+    "subtitle": "Wybierz pull request do przeglądu.",
+    "empty": "Nie znaleziono pull requestów w tym repozytorium.",
+    "updatedBy": "przez {author} · zaktualizowano {time}"
+  },
+  "Pull": {
+    "back": "Wszystkie pull requesty",
+    "mergeInfo": "{author} chce połączyć <head>{headRef}</head> z <base>{baseRef}</base>",
+    "viewOnGithub": "Zobacz na GitHub",
+    "staleNotice": "Ten pull request ma nowe commity od ostatniego przeglądu. Wykonaj ponowny przegląd, aby zobaczyć aktualne wyniki."
+  },
+  "Review": {
+    "lastReviewedAt": "Ostatni przegląd {time}",
+    "summaryCount": "{count, plural, =0 {Nie znaleziono istotnych problemów} one {# problem znaleziony} few {# problemy znalezione} many {# problemów znalezionych} other {# problemu znalezionego}}",
+    "notReviewed": "Ten pull request nie został jeszcze przejrzany.",
+    "run": "Uruchom przegląd AI",
+    "rerun": "Przejrzyj ponownie",
+    "running": "Przeglądanie…",
+    "noProblems": "Nie znaleziono istotnych problemów w tym pull requeście.",
+    "whyItMatters": "Dlaczego to ważne",
+    "suggestedFix": "Sugerowana poprawka"
+  },
+  "Severity": { "CRITICAL": "Krytyczny", "HIGH": "Wysoki", "MEDIUM": "Średni", "LOW": "Niski" },
+  "Category": {
+    "BUG": "Błąd",
+    "SECURITY": "Bezpieczeństwo",
+    "PERFORMANCE": "Wydajność",
+    "CODE_QUALITY": "Jakość kodu",
+    "MISSING_TESTS": "Brakujące testy"
+  },
+  "State": { "open": "otwarty", "merged": "scalony", "closed": "zamknięty" },
+  "Errors": {
+    "title": "Coś poszło nie tak",
+    "UNAUTHORIZED": "Musisz się zalogować, aby to zrobić.",
+    "GITHUB_AUTH_ERROR": "Twoje połączenie z GitHub już nie jest ważne. Zaloguj się ponownie.",
+    "GITHUB_RATE_LIMIT": "Osiągnięto limit żądań API GitHub. Spróbuj ponownie za kilka minut.",
+    "GITHUB_NOT_FOUND": "Nie znaleziono żądanego repozytorium lub pull requesta.",
+    "GITHUB_API_ERROR": "Nie udało się połączyć z GitHub. Spróbuj ponownie.",
+    "CLAUDE_API_ERROR": "Usługa przeglądu AI jest obecnie niedostępna. Spróbuj ponownie.",
+    "CLAUDE_INVALID_RESPONSE": "Przegląd AI nie zwrócił prawidłowego wyniku. Spróbuj ponownie.",
+    "DIFF_TOO_LARGE": "Ten pull request jest zbyt duży do przeglądu.",
+    "DIFF_EMPTY": "Nie znaleziono zmian kodu możliwych do przejrzenia w tym pull requeście.",
+    "DB_ERROR": "Nie udało się połączyć z bazą danych. Spróbuj ponownie.",
+    "VALIDATION_ERROR": "Nieprawidłowe żądanie.",
+    "NOT_FOUND": "Nie znaleziono.",
+    "UNKNOWN": "Coś poszło nie tak. Spróbuj ponownie.",
+    "NETWORK_ERROR": "Nie udało się połączyć z serwerem. Spróbuj ponownie."
+  }
+}

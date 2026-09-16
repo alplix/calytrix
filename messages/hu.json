@@ -1,0 +1,72 @@
+{
+  "Landing": {
+    "badge": "AI-alapú pull request ellenőrzés",
+    "title": "AI kódellenőrzés GitHubhoz",
+    "subtitle": "Találjon hibákat, biztonsági és teljesítményproblémákat, mielőtt élesbe kerülnének.",
+    "connectGithub": "Csatlakozás GitHubbal",
+    "categoryBugs": "Hibák",
+    "categorySecurity": "Biztonság",
+    "categoryPerformance": "Teljesítmény",
+    "categoryCodeQuality": "Kódminőség",
+    "categoryMissingTests": "Hiányzó tesztek",
+    "footerTagline": "A Calytrix a Claude segítségével ellenőrzi a pull requestek diffjeit. Sosem futtatja a kódját.",
+    "footerCredit": "Készítette: Alperen Yavuz"
+  },
+  "Nav": { "signOut": "Kijelentkezés" },
+  "Language": { "label": "Nyelv" },
+  "Dashboard": {
+    "title": "Repository-i",
+    "subtitle": "Válasszon egy repository-t a pull requestjeinek ellenőrzéséhez.",
+    "empty": "Nem található repository a GitHub-fiókjában.",
+    "private": "Privát"
+  },
+  "Repo": {
+    "back": "Összes repository",
+    "subtitle": "Válasszon ki egy pull requestet az ellenőrzéshez.",
+    "empty": "Ebben a repository-ban nem található pull request.",
+    "updatedBy": "{author} · frissítve: {time}"
+  },
+  "Pull": {
+    "back": "Összes pull request",
+    "mergeInfo": "{author} össze szeretné olvasztani ezt: <head>{headRef}</head> ebbe: <base>{baseRef}</base>",
+    "viewOnGithub": "Megtekintés a GitHubon",
+    "staleNotice": "Ennek a pull requestnek új commitjai vannak az utolsó ellenőrzés óta. Végezzen új ellenőrzést a friss eredményekért."
+  },
+  "Review": {
+    "lastReviewedAt": "Utolsó ellenőrzés: {time}",
+    "summaryCount": "{count, plural, =0 {Nem található jelentős probléma} one {# probléma található} other {# probléma található}}",
+    "notReviewed": "Ezt a pull requestet még nem ellenőrizték.",
+    "run": "AI ellenőrzés indítása",
+    "rerun": "Újraellenőrzés",
+    "running": "Ellenőrzés folyamatban…",
+    "noProblems": "Ebben a pull requestben nem található jelentős probléma.",
+    "whyItMatters": "Miért fontos",
+    "suggestedFix": "Javasolt megoldás"
+  },
+  "Severity": { "CRITICAL": "Kritikus", "HIGH": "Magas", "MEDIUM": "Közepes", "LOW": "Alacsony" },
+  "Category": {
+    "BUG": "Hiba",
+    "SECURITY": "Biztonság",
+    "PERFORMANCE": "Teljesítmény",
+    "CODE_QUALITY": "Kódminőség",
+    "MISSING_TESTS": "Hiányzó tesztek"
+  },
+  "State": { "open": "nyitott", "merged": "egyesített", "closed": "lezárt" },
+  "Errors": {
+    "title": "Hiba történt",
+    "UNAUTHORIZED": "Ehhez be kell jelentkeznie.",
+    "GITHUB_AUTH_ERROR": "A GitHub-kapcsolata már nem érvényes. Kérjük, jelentkezzen be újra.",
+    "GITHUB_RATE_LIMIT": "A GitHub API kérési limitje elérve. Próbálja újra néhány perc múlva.",
+    "GITHUB_NOT_FOUND": "A kért repository vagy pull request nem található.",
+    "GITHUB_API_ERROR": "Nem sikerült kapcsolódni a GitHubhoz. Próbálja újra.",
+    "CLAUDE_API_ERROR": "Az AI ellenőrző szolgáltatás jelenleg nem elérhető. Próbálja újra.",
+    "CLAUDE_INVALID_RESPONSE": "Az AI ellenőrzés nem adott érvényes eredményt. Próbálja újra.",
+    "DIFF_TOO_LARGE": "Ez a pull request túl nagy az ellenőrzéshez.",
+    "DIFF_EMPTY": "Ebben a pull requestben nem található ellenőrizhető kódváltoztatás.",
+    "DB_ERROR": "Nem sikerült kapcsolódni az adatbázishoz. Próbálja újra.",
+    "VALIDATION_ERROR": "Érvénytelen kérés.",
+    "NOT_FOUND": "Nem található.",
+    "UNKNOWN": "Hiba történt. Próbálja újra.",
+    "NETWORK_ERROR": "Nem sikerült kapcsolódni a szerverhez. Próbálja újra."
+  }
+}
