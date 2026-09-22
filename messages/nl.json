@@ -10,10 +10,20 @@
     "categoryCodeQuality": "Codekwaliteit",
     "categoryMissingTests": "Ontbrekende tests",
     "footerTagline": "Calytrix beoordeelt pull request-diffs met Claude. Uw code wordt nooit uitgevoerd.",
-    "footerCredit": "Gebouwd door Alperen Yavuz"
+    "footerCredit": "Gebouwd door Alperen Yavuz",
+    "signInAthena": "Inloggen met Athena"
   },
-  "Nav": { "signOut": "Afmelden" },
-  "Language": { "label": "Taal" },
+  "Nav": {
+    "signOut": "Afmelden"
+  },
+  "ConnectGithub": {
+    "title": "Koppel je GitHub-account",
+    "subtitle": "Om pull requests te beoordelen, koppel je GitHub-account. Calytrix vraagt alleen leestoegang tot je repositories en pull requests.",
+    "button": "GitHub koppelen"
+  },
+  "Language": {
+    "label": "Taal"
+  },
   "Dashboard": {
     "title": "Uw repositories",
     "subtitle": "Kies een repository om de pull requests te bekijken.",
@@ -43,7 +53,12 @@
     "whyItMatters": "Waarom dit belangrijk is",
     "suggestedFix": "Voorgestelde oplossing"
   },
-  "Severity": { "CRITICAL": "Kritiek", "HIGH": "Hoog", "MEDIUM": "Gemiddeld", "LOW": "Laag" },
+  "Severity": {
+    "CRITICAL": "Kritiek",
+    "HIGH": "Hoog",
+    "MEDIUM": "Gemiddeld",
+    "LOW": "Laag"
+  },
   "Category": {
     "BUG": "Bug",
     "SECURITY": "Beveiliging",
@@ -51,7 +66,11 @@
     "CODE_QUALITY": "Codekwaliteit",
     "MISSING_TESTS": "Ontbrekende tests"
   },
-  "State": { "open": "open", "merged": "samengevoegd", "closed": "gesloten" },
+  "State": {
+    "open": "open",
+    "merged": "samengevoegd",
+    "closed": "gesloten"
+  },
   "Errors": {
     "title": "Er is iets misgegaan",
     "UNAUTHORIZED": "U moet inloggen om dit te doen.",

@@ -1,14 +1,15 @@
 import { redirect } from "next/navigation";
 import { getTranslations } from "next-intl/server";
-import { auth } from "@/lib/auth";
-import { SignInButton } from "@/components/AuthButtons";
+import { getAthenaUser, athenaLoginUrlForPath } from "@/lib/session";
+import { AthenaSignInButton } from "@/components/AuthButtons";
 import { Navbar } from "@/components/Navbar";
 
 export default async function Home() {
-  const session = await auth();
-  if (session) redirect("/dashboard");
+  const athenaUser = await getAthenaUser();
+  if (athenaUser) redirect("/dashboard");
 
   const t = await getTranslations("Landing");
+  const signInHref = await athenaLoginUrlForPath("/dashboard");
 
   const categories = [
     { key: "categoryBugs", color: "var(--critical)" },
@@ -34,7 +35,7 @@ export default async function Home() {
         <p className="mt-5 max-w-xl text-lg text-muted">{t("subtitle")}</p>
 
         <div className="mt-8">
-          <SignInButton />
+          <AthenaSignInButton href={signInHref} />
         </div>
 
         <div className="mt-16 flex flex-wrap items-center justify-center gap-3">

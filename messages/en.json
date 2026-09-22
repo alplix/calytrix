@@ -10,10 +10,16 @@
     "categoryCodeQuality": "Code quality",
     "categoryMissingTests": "Missing tests",
     "footerTagline": "Calytrix reviews pull request diffs with Claude. It never runs your code.",
-    "footerCredit": "Coded by Alperen Yavuz"
+    "footerCredit": "Coded by Alperen Yavuz",
+    "signInAthena": "Sign in with Athena"
   },
   "Nav": {
     "signOut": "Sign out"
+  },
+  "ConnectGithub": {
+    "title": "Connect your GitHub account",
+    "subtitle": "To review pull requests, connect your GitHub account. Calytrix only requests read access to your repositories and pull requests.",
+    "button": "Connect GitHub"
   },
   "Language": {
     "label": "Language"

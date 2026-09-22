@@ -4,7 +4,7 @@ export type ErrorCode =
   | "GITHUB_RATE_LIMIT"
   | "GITHUB_NOT_FOUND"
   | "GITHUB_API_ERROR"
-  | "CLAUDE_API_ERROR"
+  | "TILVAR_API_ERROR"
   | "CLAUDE_INVALID_RESPONSE"
   | "DIFF_TOO_LARGE"
   | "DIFF_EMPTY"
@@ -18,7 +18,7 @@ const USER_MESSAGES: Record<ErrorCode, string> = {
   GITHUB_RATE_LIMIT: "GitHub API rate limit reached. Please try again in a few minutes.",
   GITHUB_NOT_FOUND: "The requested repository or pull request could not be found.",
   GITHUB_API_ERROR: "Couldn't reach GitHub. Please try again.",
-  CLAUDE_API_ERROR: "The AI review service is unavailable right now. Please try again.",
+  TILVAR_API_ERROR: "The AI review service is unavailable right now. Please try again.",
   CLAUDE_INVALID_RESPONSE: "The AI review did not return a valid result. Please try again.",
   DIFF_TOO_LARGE: "This pull request is too large to review.",
   DIFF_EMPTY: "No reviewable code changes were found in this pull request.",
@@ -33,7 +33,7 @@ const STATUS_BY_CODE: Record<ErrorCode, number> = {
   GITHUB_RATE_LIMIT: 429,
   GITHUB_NOT_FOUND: 404,
   GITHUB_API_ERROR: 502,
-  CLAUDE_API_ERROR: 502,
+  TILVAR_API_ERROR: 502,
   CLAUDE_INVALID_RESPONSE: 502,
   DIFF_TOO_LARGE: 413,
   DIFF_EMPTY: 422,

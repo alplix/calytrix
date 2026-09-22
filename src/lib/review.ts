@@ -1,7 +1,7 @@
 import { prisma } from "@/lib/prisma";
 import { getPullRequest, getPullRequestFiles, getRepo } from "@/lib/github";
 import { prepareDiffForReview } from "@/lib/diff-filter";
-import { reviewPullRequestDiff } from "@/lib/claude";
+import { reviewPullRequestDiff } from "@/lib/tilvar";
 import { AppError } from "@/lib/errors";
 import { Prisma, type FindingCategory, type Severity } from "@prisma/client";
 
@@ -48,7 +48,7 @@ async function upsertPullRequest(
 
 export interface GetOrCreateReviewParams {
   accessToken: string;
-  userId: string;
+  userId: number;
   owner: string;
   repo: string;
   number: number;

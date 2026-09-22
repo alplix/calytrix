@@ -10,10 +10,20 @@
     "categoryCodeQuality": "Ποιότητα κώδικα",
     "categoryMissingTests": "Ελλείπη tests",
     "footerTagline": "Το Calytrix εξετάζει τα diffs των pull requests με το Claude. Δεν εκτελεί ποτέ τον κώδικά σας.",
-    "footerCredit": "Δημιουργήθηκε από τον Alperen Yavuz"
+    "footerCredit": "Δημιουργήθηκε από τον Alperen Yavuz",
+    "signInAthena": "Σύνδεση με Athena"
   },
-  "Nav": { "signOut": "Αποσύνδεση" },
-  "Language": { "label": "Γλώσσα" },
+  "Nav": {
+    "signOut": "Αποσύνδεση"
+  },
+  "ConnectGithub": {
+    "title": "Σύνδεσε τον λογαριασμό GitHub",
+    "subtitle": "Για να ελέγξεις pull requests, σύνδεσε τον λογαριασμό σου στο GitHub. Το Calytrix ζητά μόνο πρόσβαση ανάγνωσης στα repositories και τα pull requests σου.",
+    "button": "Σύνδεση GitHub"
+  },
+  "Language": {
+    "label": "Γλώσσα"
+  },
   "Dashboard": {
     "title": "Τα αποθετήριά σας",
     "subtitle": "Επιλέξτε ένα αποθετήριο για να ελέγξετε τα pull requests του.",
@@ -43,7 +53,12 @@
     "whyItMatters": "Γιατί έχει σημασία",
     "suggestedFix": "Προτεινόμενη διόρθωση"
   },
-  "Severity": { "CRITICAL": "Κρίσιμη", "HIGH": "Υψηλή", "MEDIUM": "Μεσαία", "LOW": "Χαμηλή" },
+  "Severity": {
+    "CRITICAL": "Κρίσιμη",
+    "HIGH": "Υψηλή",
+    "MEDIUM": "Μεσαία",
+    "LOW": "Χαμηλή"
+  },
   "Category": {
     "BUG": "Σφάλμα",
     "SECURITY": "Ασφάλεια",
@@ -51,7 +66,11 @@
     "CODE_QUALITY": "Ποιότητα κώδικα",
     "MISSING_TESTS": "Ελλείπη tests"
   },
-  "State": { "open": "ανοιχτό", "merged": "συγχωνευμένο", "closed": "κλειστό" },
+  "State": {
+    "open": "ανοιχτό",
+    "merged": "συγχωνευμένο",
+    "closed": "κλειστό"
+  },
   "Errors": {
     "title": "Κάτι πήγε στραβά",
     "UNAUTHORIZED": "Πρέπει να συνδεθείτε για να το κάνετε αυτό.",

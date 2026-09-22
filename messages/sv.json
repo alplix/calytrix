@@ -10,10 +10,20 @@
     "categoryCodeQuality": "Kodkvalitet",
     "categoryMissingTests": "Saknade tester",
     "footerTagline": "Calytrix granskar pull request-diffar med Claude. Din kod körs aldrig.",
-    "footerCredit": "Skapad av Alperen Yavuz"
+    "footerCredit": "Skapad av Alperen Yavuz",
+    "signInAthena": "Logga in med Athena"
   },
-  "Nav": { "signOut": "Logga ut" },
-  "Language": { "label": "Språk" },
+  "Nav": {
+    "signOut": "Logga ut"
+  },
+  "ConnectGithub": {
+    "title": "Anslut ditt GitHub-konto",
+    "subtitle": "För att granska pull requests, anslut ditt GitHub-konto. Calytrix begär endast läsåtkomst till dina repositorier och pull requests.",
+    "button": "Anslut GitHub"
+  },
+  "Language": {
+    "label": "Språk"
+  },
   "Dashboard": {
     "title": "Dina repositories",
     "subtitle": "Välj ett repository för att granska dess pull requests.",
@@ -43,7 +53,12 @@
     "whyItMatters": "Varför det spelar roll",
     "suggestedFix": "Föreslagen lösning"
   },
-  "Severity": { "CRITICAL": "Kritisk", "HIGH": "Hög", "MEDIUM": "Medel", "LOW": "Låg" },
+  "Severity": {
+    "CRITICAL": "Kritisk",
+    "HIGH": "Hög",
+    "MEDIUM": "Medel",
+    "LOW": "Låg"
+  },
   "Category": {
     "BUG": "Bugg",
     "SECURITY": "Säkerhet",
@@ -51,7 +66,11 @@
     "CODE_QUALITY": "Kodkvalitet",
     "MISSING_TESTS": "Saknade tester"
   },
-  "State": { "open": "öppen", "merged": "sammanslagen", "closed": "stängd" },
+  "State": {
+    "open": "öppen",
+    "merged": "sammanslagen",
+    "closed": "stängd"
+  },
   "Errors": {
     "title": "Något gick fel",
     "UNAUTHORIZED": "Du måste logga in för att göra det.",

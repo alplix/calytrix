@@ -10,10 +10,20 @@
     "categoryCodeQuality": "Calidad de código",
     "categoryMissingTests": "Tests faltantes",
     "footerTagline": "Calytrix revisa los diffs de pull requests con Claude. Nunca ejecuta tu código.",
-    "footerCredit": "Creado por Alperen Yavuz"
+    "footerCredit": "Creado por Alperen Yavuz",
+    "signInAthena": "Iniciar sesión con Athena"
   },
-  "Nav": { "signOut": "Cerrar sesión" },
-  "Language": { "label": "Idioma" },
+  "Nav": {
+    "signOut": "Cerrar sesión"
+  },
+  "ConnectGithub": {
+    "title": "Conecta tu cuenta de GitHub",
+    "subtitle": "Para revisar pull requests, conecta tu cuenta de GitHub. Calytrix solo solicita acceso de lectura a tus repositorios y pull requests.",
+    "button": "Conectar GitHub"
+  },
+  "Language": {
+    "label": "Idioma"
+  },
   "Dashboard": {
     "title": "Tus repositorios",
     "subtitle": "Elige un repositorio para revisar sus pull requests.",
@@ -43,7 +53,12 @@
     "whyItMatters": "Por qué es importante",
     "suggestedFix": "Solución sugerida"
   },
-  "Severity": { "CRITICAL": "Crítica", "HIGH": "Alta", "MEDIUM": "Media", "LOW": "Baja" },
+  "Severity": {
+    "CRITICAL": "Crítica",
+    "HIGH": "Alta",
+    "MEDIUM": "Media",
+    "LOW": "Baja"
+  },
   "Category": {
     "BUG": "Bug",
     "SECURITY": "Seguridad",
@@ -51,7 +66,11 @@
     "CODE_QUALITY": "Calidad de código",
     "MISSING_TESTS": "Tests faltantes"
   },
-  "State": { "open": "abierto", "merged": "fusionado", "closed": "cerrado" },
+  "State": {
+    "open": "abierto",
+    "merged": "fusionado",
+    "closed": "cerrado"
+  },
   "Errors": {
     "title": "Algo salió mal",
     "UNAUTHORIZED": "Necesitas iniciar sesión para hacer eso.",

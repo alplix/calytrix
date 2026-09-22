@@ -10,10 +10,20 @@
     "categoryCodeQuality": "Koodi kvaliteet",
     "categoryMissingTests": "Puuduvad testid",
     "footerTagline": "Calytrix vaatab pull requestide diffe üle Claude abil. See ei käivita kunagi teie koodi.",
-    "footerCredit": "Koostanud Alperen Yavuz"
+    "footerCredit": "Koostanud Alperen Yavuz",
+    "signInAthena": "Logi sisse Athenaga"
   },
-  "Nav": { "signOut": "Logi välja" },
-  "Language": { "label": "Keel" },
+  "Nav": {
+    "signOut": "Logi välja"
+  },
+  "ConnectGithub": {
+    "title": "Ühenda oma GitHubi konto",
+    "subtitle": "Pull requestide ülevaatamiseks ühenda oma GitHubi konto. Calytrix küsib ainult lugemisõigust sinu repositooriumidele ja pull requestidele.",
+    "button": "Ühenda GitHub"
+  },
+  "Language": {
+    "label": "Keel"
+  },
   "Dashboard": {
     "title": "Teie repositooriumid",
     "subtitle": "Valige repositoorium selle pull requestide ülevaatamiseks.",
@@ -43,7 +53,12 @@
     "whyItMatters": "Miks see on oluline",
     "suggestedFix": "Soovitatud lahendus"
   },
-  "Severity": { "CRITICAL": "Kriitiline", "HIGH": "Kõrge", "MEDIUM": "Keskmine", "LOW": "Madal" },
+  "Severity": {
+    "CRITICAL": "Kriitiline",
+    "HIGH": "Kõrge",
+    "MEDIUM": "Keskmine",
+    "LOW": "Madal"
+  },
   "Category": {
     "BUG": "Viga",
     "SECURITY": "Turvalisus",
@@ -51,7 +66,11 @@
     "CODE_QUALITY": "Koodi kvaliteet",
     "MISSING_TESTS": "Puuduvad testid"
   },
-  "State": { "open": "avatud", "merged": "ühendatud", "closed": "suletud" },
+  "State": {
+    "open": "avatud",
+    "merged": "ühendatud",
+    "closed": "suletud"
+  },
   "Errors": {
     "title": "Midagi läks valesti",
     "UNAUTHORIZED": "Selle tegemiseks peate sisse logima.",

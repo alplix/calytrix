@@ -10,10 +10,20 @@
     "categoryCodeQuality": "Kodo kokybė",
     "categoryMissingTests": "Trūkstami testai",
     "footerTagline": "Calytrix peržiūri pull request pakeitimus naudodama Claude. Ji niekada nevykdo jūsų kodo.",
-    "footerCredit": "Sukūrė Alperen Yavuz"
+    "footerCredit": "Sukūrė Alperen Yavuz",
+    "signInAthena": "Prisijungti su Athena"
   },
-  "Nav": { "signOut": "Atsijungti" },
-  "Language": { "label": "Kalba" },
+  "Nav": {
+    "signOut": "Atsijungti"
+  },
+  "ConnectGithub": {
+    "title": "Prijunkite GitHub paskyrą",
+    "subtitle": "Norėdami peržiūrėti pull requests, prijunkite savo GitHub paskyrą. Calytrix prašo tik skaitymo prieigos prie jūsų saugyklų ir pull requests.",
+    "button": "Prijungti GitHub"
+  },
+  "Language": {
+    "label": "Kalba"
+  },
   "Dashboard": {
     "title": "Jūsų saugyklos",
     "subtitle": "Pasirinkite saugyklą, kad peržiūrėtumėte jos pull request'us.",
@@ -43,7 +53,12 @@
     "whyItMatters": "Kodėl tai svarbu",
     "suggestedFix": "Siūlomas sprendimas"
   },
-  "Severity": { "CRITICAL": "Kritinė", "HIGH": "Aukšta", "MEDIUM": "Vidutinė", "LOW": "Žema" },
+  "Severity": {
+    "CRITICAL": "Kritinė",
+    "HIGH": "Aukšta",
+    "MEDIUM": "Vidutinė",
+    "LOW": "Žema"
+  },
   "Category": {
     "BUG": "Klaida",
     "SECURITY": "Saugumas",
@@ -51,7 +66,11 @@
     "CODE_QUALITY": "Kodo kokybė",
     "MISSING_TESTS": "Trūkstami testai"
   },
-  "State": { "open": "atviras", "merged": "sulietas", "closed": "uždarytas" },
+  "State": {
+    "open": "atviras",
+    "merged": "sulietas",
+    "closed": "uždarytas"
+  },
   "Errors": {
     "title": "Kažkas nutiko ne taip",
     "UNAUTHORIZED": "Norėdami tai padaryti, turite prisijungti.",

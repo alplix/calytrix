@@ -1,15 +1,15 @@
 import { NextResponse } from "next/server";
-import { auth, getGithubAccessToken } from "@/lib/auth";
+import { getAthenaUser, getGithubConnection } from "@/lib/session";
 import { AppError } from "@/lib/errors";
 
-export async function requireAuth(): Promise<{ userId: string; accessToken: string }> {
-  const session = await auth();
-  if (!session?.user?.id) throw new AppError("UNAUTHORIZED");
+export async function requireAuth(): Promise<{ userId: number; accessToken: string }> {
+  const athenaUser = await getAthenaUser();
+  if (!athenaUser) throw new AppError("UNAUTHORIZED");
 
-  const accessToken = await getGithubAccessToken(session.user.id);
-  if (!accessToken) throw new AppError("GITHUB_AUTH_ERROR");
+  const connection = await getGithubConnection(athenaUser.id);
+  if (!connection) throw new AppError("GITHUB_AUTH_ERROR");
 
-  return { userId: session.user.id, accessToken };
+  return { userId: athenaUser.id, accessToken: connection.accessToken };
 }
 
 export function errorResponse(error: unknown): NextResponse {

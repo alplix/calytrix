@@ -10,10 +10,20 @@
     "categoryCodeQuality": "代码质量",
     "categoryMissingTests": "缺失测试",
     "footerTagline": "Calytrix 使用 Claude 审查 Pull Request 的差异内容，绝不会运行您的代码。",
-    "footerCredit": "由 Alperen Yavuz 开发"
+    "footerCredit": "由 Alperen Yavuz 开发",
+    "signInAthena": "使用 Athena 登录"
   },
-  "Nav": { "signOut": "退出登录" },
-  "Language": { "label": "语言" },
+  "Nav": {
+    "signOut": "退出登录"
+  },
+  "ConnectGithub": {
+    "title": "连接你的 GitHub 账户",
+    "subtitle": "要查看拉取请求，请连接你的 GitHub 账户。Calytrix 仅请求对你的仓库和拉取请求的读取权限。",
+    "button": "连接 GitHub"
+  },
+  "Language": {
+    "label": "语言"
+  },
   "Dashboard": {
     "title": "您的仓库",
     "subtitle": "选择一个仓库以查看其 Pull Request。",
@@ -43,7 +53,12 @@
     "whyItMatters": "为什么这很重要",
     "suggestedFix": "建议的修复方案"
   },
-  "Severity": { "CRITICAL": "严重", "HIGH": "高", "MEDIUM": "中", "LOW": "低" },
+  "Severity": {
+    "CRITICAL": "严重",
+    "HIGH": "高",
+    "MEDIUM": "中",
+    "LOW": "低"
+  },
   "Category": {
     "BUG": "错误",
     "SECURITY": "安全",
@@ -51,7 +66,11 @@
     "CODE_QUALITY": "代码质量",
     "MISSING_TESTS": "缺失测试"
   },
-  "State": { "open": "打开", "merged": "已合并", "closed": "已关闭" },
+  "State": {
+    "open": "打开",
+    "merged": "已合并",
+    "closed": "已关闭"
+  },
   "Errors": {
     "title": "出了点问题",
     "UNAUTHORIZED": "您需要登录才能执行此操作。",

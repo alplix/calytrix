@@ -1,33 +1,40 @@
-"use client";
+import { getTranslations } from "next-intl/server";
+import { ATHENA_BASE_URL } from "@/lib/athena";
 
-import { signIn, signOut } from "next-auth/react";
-import { useTranslations } from "next-intl";
+const DEFAULT_BUTTON_CLASS =
+  "inline-flex items-center justify-center gap-2 rounded-lg bg-accent px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-accent-hover";
 
-export function SignInButton({ className }: { className?: string }) {
-  const t = useTranslations("Landing");
+/** Sends the visitor to Athena's shared sign-in page (`href` should already carry a `next` return URL). */
+export async function AthenaSignInButton({ href, className }: { href: string; className?: string }) {
+  const t = await getTranslations("Landing");
   return (
-    <button
-      onClick={() => signIn("github", { callbackUrl: "/dashboard" })}
-      className={
-        className ??
-        "inline-flex items-center justify-center gap-2 rounded-lg bg-accent px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-accent-hover"
-      }
-    >
-      <GitHubMark className="h-4 w-4" />
-      {t("connectGithub")}
-    </button>
+    <a href={href} className={className ?? DEFAULT_BUTTON_CLASS}>
+      {t("signInAthena")}
+    </a>
   );
 }
 
-export function SignOutButton() {
-  const t = useTranslations("Nav");
+/** Starts the (separate, optional) real GitHub OAuth authorization for repo access. */
+export async function ConnectGithubButton({ className }: { className?: string }) {
+  const t = await getTranslations("Landing");
   return (
-    <button
-      onClick={() => signOut({ callbackUrl: "/" })}
+    <a href="/api/auth/github/connect" className={className ?? DEFAULT_BUTTON_CLASS}>
+      <GitHubMark className="h-4 w-4" />
+      {t("connectGithub")}
+    </a>
+  );
+}
+
+/** Link to Athena's own site, where the visitor's SSO session actually lives and can be managed. */
+export async function AthenaAccountLink() {
+  const t = await getTranslations("Nav");
+  return (
+    <a
+      href={ATHENA_BASE_URL}
       className="rounded-lg border border-border px-3 py-1.5 text-sm text-muted transition-colors hover:text-foreground"
     >
       {t("signOut")}
-    </button>
+    </a>
   );
 }
 

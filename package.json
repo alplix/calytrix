@@ -10,11 +10,8 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.126.0",
-    "@auth/prisma-adapter": "^2.11.3",
     "@prisma/client": "^6.19.3",
     "next": "16.3.5",
-    "next-auth": "^5.0.0-beta.32",
     "next-intl": "^4.14.5",
     "octokit": "^5.0.5",
     "react": "19.2.8",

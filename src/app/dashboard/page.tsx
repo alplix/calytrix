@@ -1,8 +1,10 @@
+import { redirect } from "next/navigation";
 import { getTranslations } from "next-intl/server";
-import { auth, getGithubAccessToken } from "@/lib/auth";
+import { resolveDashboardAccess, athenaLoginUrlForPath } from "@/lib/session";
 import { listUserRepos } from "@/lib/github";
 import { RepoCard } from "@/components/RepoCard";
 import { ErrorPanel } from "@/components/ErrorPanel";
+import { ConnectGithubPanel } from "@/components/ConnectGithubPanel";
 import { AppError, type ErrorCode } from "@/lib/errors";
 import type { GithubRepoSummary } from "@/lib/types";
 
@@ -18,14 +20,16 @@ async function loadRepos(
 }
 
 export default async function DashboardPage() {
-  const session = await auth();
-  const accessToken = session?.user?.id ? await getGithubAccessToken(session.user.id) : null;
+  const access = await resolveDashboardAccess();
 
-  if (!accessToken) {
-    return <ErrorPanel code="GITHUB_AUTH_ERROR" />;
+  if (access.status === "signed-out") {
+    redirect(await athenaLoginUrlForPath("/dashboard"));
+  }
+  if (access.status === "github-not-connected") {
+    return <ConnectGithubPanel />;
   }
 
-  const result = await loadRepos(accessToken);
+  const result = await loadRepos(access.accessToken);
   if ("errorCode" in result) {
     return <ErrorPanel code={result.errorCode} />;
   }

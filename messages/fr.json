@@ -10,10 +10,20 @@
     "categoryCodeQuality": "Qualité du code",
     "categoryMissingTests": "Tests manquants",
     "footerTagline": "Calytrix analyse les diffs des pull requests avec Claude. Votre code n'est jamais exécuté.",
-    "footerCredit": "Développé par Alperen Yavuz"
+    "footerCredit": "Développé par Alperen Yavuz",
+    "signInAthena": "Se connecter avec Athena"
   },
-  "Nav": { "signOut": "Se déconnecter" },
-  "Language": { "label": "Langue" },
+  "Nav": {
+    "signOut": "Se déconnecter"
+  },
+  "ConnectGithub": {
+    "title": "Connecter votre compte GitHub",
+    "subtitle": "Pour examiner les pull requests, connectez votre compte GitHub. Calytrix ne demande qu'un accès en lecture à vos dépôts et pull requests.",
+    "button": "Connecter GitHub"
+  },
+  "Language": {
+    "label": "Langue"
+  },
   "Dashboard": {
     "title": "Vos dépôts",
     "subtitle": "Choisissez un dépôt pour examiner ses pull requests.",
@@ -43,7 +53,12 @@
     "whyItMatters": "Pourquoi c'est important",
     "suggestedFix": "Correction suggérée"
   },
-  "Severity": { "CRITICAL": "Critique", "HIGH": "Élevée", "MEDIUM": "Moyenne", "LOW": "Faible" },
+  "Severity": {
+    "CRITICAL": "Critique",
+    "HIGH": "Élevée",
+    "MEDIUM": "Moyenne",
+    "LOW": "Faible"
+  },
   "Category": {
     "BUG": "Bug",
     "SECURITY": "Sécurité",
@@ -51,7 +66,11 @@
     "CODE_QUALITY": "Qualité du code",
     "MISSING_TESTS": "Tests manquants"
   },
-  "State": { "open": "ouverte", "merged": "fusionnée", "closed": "fermée" },
+  "State": {
+    "open": "ouverte",
+    "merged": "fusionnée",
+    "closed": "fermée"
+  },
   "Errors": {
     "title": "Une erreur s'est produite",
     "UNAUTHORIZED": "Vous devez être connecté pour faire cela.",

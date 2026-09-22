@@ -32,8 +32,8 @@ describe("toAppError", () => {
   });
 
   it("falls back to the provided default code for unknown errors", () => {
-    const error = toAppError(new Error("boom"), "CLAUDE_API_ERROR");
-    expect(error.code).toBe("CLAUDE_API_ERROR");
+    const error = toAppError(new Error("boom"), "TILVAR_API_ERROR");
+    expect(error.code).toBe("TILVAR_API_ERROR");
   });
 
   it("never leaks the original error message to the user-facing message", () => {

@@ -10,10 +10,20 @@
     "categoryCodeQuality": "コード品質",
     "categoryMissingTests": "テスト不足",
     "footerTagline": "CalytrixはClaudeを使ってプルリクエストの差分をレビューします。あなたのコードを実行することは一切ありません。",
-    "footerCredit": "Alperen Yavuzによって開発されました"
+    "footerCredit": "Alperen Yavuzによって開発されました",
+    "signInAthena": "Athena でサインイン"
   },
-  "Nav": { "signOut": "サインアウト" },
-  "Language": { "label": "言語" },
+  "Nav": {
+    "signOut": "サインアウト"
+  },
+  "ConnectGithub": {
+    "title": "GitHub アカウントを連携",
+    "subtitle": "プルリクエストをレビューするには、GitHub アカウントを連携してください。Calytrix はリポジトリとプルリクエストへの読み取りアクセスのみをリクエストします。",
+    "button": "GitHub を連携"
+  },
+  "Language": {
+    "label": "言語"
+  },
   "Dashboard": {
     "title": "あなたのリポジトリ",
     "subtitle": "プルリクエストをレビューするリポジトリを選択してください。",
@@ -43,7 +53,12 @@
     "whyItMatters": "重要な理由",
     "suggestedFix": "提案される修正"
   },
-  "Severity": { "CRITICAL": "緊急", "HIGH": "高", "MEDIUM": "中", "LOW": "低" },
+  "Severity": {
+    "CRITICAL": "緊急",
+    "HIGH": "高",
+    "MEDIUM": "中",
+    "LOW": "低"
+  },
   "Category": {
     "BUG": "バグ",
     "SECURITY": "セキュリティ",
@@ -51,7 +66,11 @@
     "CODE_QUALITY": "コード品質",
     "MISSING_TESTS": "テスト不足"
   },
-  "State": { "open": "オープン", "merged": "マージ済み", "closed": "クローズ" },
+  "State": {
+    "open": "オープン",
+    "merged": "マージ済み",
+    "closed": "クローズ"
+  },
   "Errors": {
     "title": "問題が発生しました",
     "UNAUTHORIZED": "この操作にはサインインが必要です。",

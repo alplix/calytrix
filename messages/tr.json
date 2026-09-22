@@ -10,10 +10,16 @@
     "categoryCodeQuality": "Kod kalitesi",
     "categoryMissingTests": "Eksik testler",
     "footerTagline": "Calytrix, pull request diff'lerini Claude ile inceler. Kodunuzu asla çalıştırmaz.",
-    "footerCredit": "Alperen Yavuz tarafından geliştirildi"
+    "footerCredit": "Alperen Yavuz tarafından geliştirildi",
+    "signInAthena": "Athena ile giriş yap"
   },
   "Nav": {
     "signOut": "Çıkış yap"
+  },
+  "ConnectGithub": {
+    "title": "GitHub hesabını bağla",
+    "subtitle": "Pull request'leri incelemek için GitHub hesabını bağla. Calytrix yalnızca depolarına ve pull request'lerine salt okunur erişim ister.",
+    "button": "GitHub'ı bağla"
   },
   "Language": {
     "label": "Dil"

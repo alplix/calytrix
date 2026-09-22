@@ -10,10 +10,20 @@
     "categoryCodeQuality": "Kvaliteta koda",
     "categoryMissingTests": "Nedostajući testovi",
     "footerTagline": "Calytrix pregledava diffove pull requestova pomoću Claudea. Nikada ne pokreće vaš kod.",
-    "footerCredit": "Izradio Alperen Yavuz"
+    "footerCredit": "Izradio Alperen Yavuz",
+    "signInAthena": "Prijava putem Athena"
   },
-  "Nav": { "signOut": "Odjava" },
-  "Language": { "label": "Jezik" },
+  "Nav": {
+    "signOut": "Odjava"
+  },
+  "ConnectGithub": {
+    "title": "Poveži svoj GitHub račun",
+    "subtitle": "Za pregled pull requestova poveži svoj GitHub račun. Calytrix traži samo pristup za čitanje tvojih repozitorija i pull requestova.",
+    "button": "Poveži GitHub"
+  },
+  "Language": {
+    "label": "Jezik"
+  },
   "Dashboard": {
     "title": "Vaši repozitoriji",
     "subtitle": "Odaberite repozitorij za pregled njegovih pull requestova.",
@@ -43,7 +53,12 @@
     "whyItMatters": "Zašto je to važno",
     "suggestedFix": "Predloženo rješenje"
   },
-  "Severity": { "CRITICAL": "Kritično", "HIGH": "Visoko", "MEDIUM": "Srednje", "LOW": "Nisko" },
+  "Severity": {
+    "CRITICAL": "Kritično",
+    "HIGH": "Visoko",
+    "MEDIUM": "Srednje",
+    "LOW": "Nisko"
+  },
   "Category": {
     "BUG": "Bug",
     "SECURITY": "Sigurnost",
@@ -51,7 +66,11 @@
     "CODE_QUALITY": "Kvaliteta koda",
     "MISSING_TESTS": "Nedostajući testovi"
   },
-  "State": { "open": "otvoren", "merged": "spojen", "closed": "zatvoren" },
+  "State": {
+    "open": "otvoren",
+    "merged": "spojen",
+    "closed": "zatvoren"
+  },
   "Errors": {
     "title": "Nešto je pošlo po zlu",
     "UNAUTHORIZED": "Morate se prijaviti da biste to učinili.",

@@ -10,10 +10,20 @@
     "categoryCodeQuality": "Качество кода",
     "categoryMissingTests": "Отсутствующие тесты",
     "footerTagline": "Calytrix проверяет diff'ы pull request'ов с помощью Claude. Ваш код никогда не запускается.",
-    "footerCredit": "Разработано Alperen Yavuz"
+    "footerCredit": "Разработано Alperen Yavuz",
+    "signInAthena": "Войти через Athena"
   },
-  "Nav": { "signOut": "Выйти" },
-  "Language": { "label": "Язык" },
+  "Nav": {
+    "signOut": "Выйти"
+  },
+  "ConnectGithub": {
+    "title": "Подключите аккаунт GitHub",
+    "subtitle": "Чтобы просматривать pull request'ы, подключите аккаунт GitHub. Calytrix запрашивает только доступ на чтение к вашим репозиториям и pull request'ам.",
+    "button": "Подключить GitHub"
+  },
+  "Language": {
+    "label": "Язык"
+  },
   "Dashboard": {
     "title": "Ваши репозитории",
     "subtitle": "Выберите репозиторий, чтобы просмотреть его pull request'ы.",
@@ -43,7 +53,12 @@
     "whyItMatters": "Почему это важно",
     "suggestedFix": "Предлагаемое решение"
   },
-  "Severity": { "CRITICAL": "Критическая", "HIGH": "Высокая", "MEDIUM": "Средняя", "LOW": "Низкая" },
+  "Severity": {
+    "CRITICAL": "Критическая",
+    "HIGH": "Высокая",
+    "MEDIUM": "Средняя",
+    "LOW": "Низкая"
+  },
   "Category": {
     "BUG": "Баг",
     "SECURITY": "Безопасность",
@@ -51,7 +66,11 @@
     "CODE_QUALITY": "Качество кода",
     "MISSING_TESTS": "Отсутствующие тесты"
   },
-  "State": { "open": "открыт", "merged": "слит", "closed": "закрыт" },
+  "State": {
+    "open": "открыт",
+    "merged": "слит",
+    "closed": "закрыт"
+  },
   "Errors": {
     "title": "Что-то пошло не так",
     "UNAUTHORIZED": "Для этого действия нужно войти в систему.",

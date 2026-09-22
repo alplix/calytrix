@@ -10,10 +10,20 @@
     "categoryCodeQuality": "Chất lượng mã nguồn",
     "categoryMissingTests": "Thiếu test",
     "footerTagline": "Calytrix xem xét diff của pull request bằng Claude. Nó không bao giờ chạy mã nguồn của bạn.",
-    "footerCredit": "Được phát triển bởi Alperen Yavuz"
+    "footerCredit": "Được phát triển bởi Alperen Yavuz",
+    "signInAthena": "Đăng nhập bằng Athena"
   },
-  "Nav": { "signOut": "Đăng xuất" },
-  "Language": { "label": "Ngôn ngữ" },
+  "Nav": {
+    "signOut": "Đăng xuất"
+  },
+  "ConnectGithub": {
+    "title": "Kết nối tài khoản GitHub",
+    "subtitle": "Để xem xét pull request, hãy kết nối tài khoản GitHub của bạn. Calytrix chỉ yêu cầu quyền đọc đối với kho lưu trữ và pull request của bạn.",
+    "button": "Kết nối GitHub"
+  },
+  "Language": {
+    "label": "Ngôn ngữ"
+  },
   "Dashboard": {
     "title": "Repository của bạn",
     "subtitle": "Chọn một repository để xem xét các pull request của nó.",
@@ -43,7 +53,12 @@
     "whyItMatters": "Tại sao điều này quan trọng",
     "suggestedFix": "Giải pháp đề xuất"
   },
-  "Severity": { "CRITICAL": "Nghiêm trọng", "HIGH": "Cao", "MEDIUM": "Trung bình", "LOW": "Thấp" },
+  "Severity": {
+    "CRITICAL": "Nghiêm trọng",
+    "HIGH": "Cao",
+    "MEDIUM": "Trung bình",
+    "LOW": "Thấp"
+  },
   "Category": {
     "BUG": "Lỗi",
     "SECURITY": "Bảo mật",
@@ -51,7 +66,11 @@
     "CODE_QUALITY": "Chất lượng mã nguồn",
     "MISSING_TESTS": "Thiếu test"
   },
-  "State": { "open": "đang mở", "merged": "đã merge", "closed": "đã đóng" },
+  "State": {
+    "open": "đang mở",
+    "merged": "đã merge",
+    "closed": "đã đóng"
+  },
   "Errors": {
     "title": "Đã xảy ra lỗi",
     "UNAUTHORIZED": "Bạn cần đăng nhập để thực hiện việc này.",

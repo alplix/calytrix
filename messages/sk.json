@@ -10,10 +10,20 @@
     "categoryCodeQuality": "Kvalita kódu",
     "categoryMissingTests": "Chýbajúce testy",
     "footerTagline": "Calytrix kontroluje diffy pull requestov pomocou Claude. Váš kód nikdy nespúšťa.",
-    "footerCredit": "Vytvoril Alperen Yavuz"
+    "footerCredit": "Vytvoril Alperen Yavuz",
+    "signInAthena": "Prihlásiť sa cez Athena"
   },
-  "Nav": { "signOut": "Odhlásiť sa" },
-  "Language": { "label": "Jazyk" },
+  "Nav": {
+    "signOut": "Odhlásiť sa"
+  },
+  "ConnectGithub": {
+    "title": "Pripojiť účet GitHub",
+    "subtitle": "Ak chceš kontrolovať pull requesty, pripoj svoj účet GitHub. Calytrix požaduje iba prístup na čítanie repozitárov a pull requestov.",
+    "button": "Pripojiť GitHub"
+  },
+  "Language": {
+    "label": "Jazyk"
+  },
   "Dashboard": {
     "title": "Vaše repozitáre",
     "subtitle": "Vyberte repozitár na kontrolu jeho pull requestov.",
@@ -43,7 +53,12 @@
     "whyItMatters": "Prečo na tom záleží",
     "suggestedFix": "Navrhovaná oprava"
   },
-  "Severity": { "CRITICAL": "Kritická", "HIGH": "Vysoká", "MEDIUM": "Stredná", "LOW": "Nízka" },
+  "Severity": {
+    "CRITICAL": "Kritická",
+    "HIGH": "Vysoká",
+    "MEDIUM": "Stredná",
+    "LOW": "Nízka"
+  },
   "Category": {
     "BUG": "Chyba",
     "SECURITY": "Bezpečnosť",
@@ -51,7 +66,11 @@
     "CODE_QUALITY": "Kvalita kódu",
     "MISSING_TESTS": "Chýbajúce testy"
   },
-  "State": { "open": "otvorený", "merged": "zlúčený", "closed": "zatvorený" },
+  "State": {
+    "open": "otvorený",
+    "merged": "zlúčený",
+    "closed": "zatvorený"
+  },
   "Errors": {
     "title": "Niečo sa pokazilo",
     "UNAUTHORIZED": "Na vykonanie tejto akcie sa musíte prihlásiť.",

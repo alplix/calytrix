@@ -10,10 +10,20 @@
     "categoryCodeQuality": "Качество на кода",
     "categoryMissingTests": "Липсващи тестове",
     "footerTagline": "Calytrix преглежда diff-овете на pull requests с Claude. Никога не изпълнява вашия код.",
-    "footerCredit": "Разработено от Alperen Yavuz"
+    "footerCredit": "Разработено от Alperen Yavuz",
+    "signInAthena": "Вход с Athena"
   },
-  "Nav": { "signOut": "Изход" },
-  "Language": { "label": "Език" },
+  "Nav": {
+    "signOut": "Изход"
+  },
+  "ConnectGithub": {
+    "title": "Свържи своя GitHub акаунт",
+    "subtitle": "За да преглеждаш pull requests, свържи своя GitHub акаунт. Calytrix изисква само достъп за четене до твоите хранилища и pull requests.",
+    "button": "Свържи GitHub"
+  },
+  "Language": {
+    "label": "Език"
+  },
   "Dashboard": {
     "title": "Вашите хранилища",
     "subtitle": "Изберете хранилище, за да прегледате неговите pull requests.",
@@ -43,7 +53,12 @@
     "whyItMatters": "Защо е важно",
     "suggestedFix": "Предложено решение"
   },
-  "Severity": { "CRITICAL": "Критична", "HIGH": "Висока", "MEDIUM": "Средна", "LOW": "Ниска" },
+  "Severity": {
+    "CRITICAL": "Критична",
+    "HIGH": "Висока",
+    "MEDIUM": "Средна",
+    "LOW": "Ниска"
+  },
   "Category": {
     "BUG": "Бъг",
     "SECURITY": "Сигурност",
@@ -51,7 +66,11 @@
     "CODE_QUALITY": "Качество на кода",
     "MISSING_TESTS": "Липсващи тестове"
   },
-  "State": { "open": "отворен", "merged": "слят", "closed": "затворен" },
+  "State": {
+    "open": "отворен",
+    "merged": "слят",
+    "closed": "затворен"
+  },
   "Errors": {
     "title": "Нещо се обърка",
     "UNAUTHORIZED": "Трябва да влезете в профила си, за да направите това.",

@@ -1,9 +1,11 @@
 import Link from "next/link";
+import { redirect } from "next/navigation";
 import { getTranslations } from "next-intl/server";
-import { auth, getGithubAccessToken } from "@/lib/auth";
+import { resolveDashboardAccess, athenaLoginUrlForPath } from "@/lib/session";
 import { listPullRequests } from "@/lib/github";
 import { PullRequestCard } from "@/components/PullRequestCard";
 import { ErrorPanel } from "@/components/ErrorPanel";
+import { ConnectGithubPanel } from "@/components/ConnectGithubPanel";
 import { AppError, type ErrorCode } from "@/lib/errors";
 import type { GithubPullRequestSummary } from "@/lib/types";
 
@@ -24,14 +26,16 @@ export default async function RepoPullsPage({
   params,
 }: PageProps<"/dashboard/[owner]/[repo]">) {
   const { owner, repo } = await params;
-  const session = await auth();
-  const accessToken = session?.user?.id ? await getGithubAccessToken(session.user.id) : null;
+  const access = await resolveDashboardAccess();
 
-  if (!accessToken) {
-    return <ErrorPanel code="GITHUB_AUTH_ERROR" />;
+  if (access.status === "signed-out") {
+    redirect(await athenaLoginUrlForPath(`/dashboard/${owner}/${repo}`));
+  }
+  if (access.status === "github-not-connected") {
+    return <ConnectGithubPanel />;
   }
 
-  const result = await loadPulls(accessToken, owner, repo);
+  const result = await loadPulls(access.accessToken, owner, repo);
   if ("errorCode" in result) {
     return <ErrorPanel code={result.errorCode} />;
   }

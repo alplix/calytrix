@@ -10,10 +10,20 @@
     "categoryCodeQuality": "Kodekvalitet",
     "categoryMissingTests": "Manglende tester",
     "footerTagline": "Calytrix gjennomgår pull request-differ med Claude. Koden din blir aldri kjørt.",
-    "footerCredit": "Utviklet av Alperen Yavuz"
+    "footerCredit": "Utviklet av Alperen Yavuz",
+    "signInAthena": "Logg inn med Athena"
   },
-  "Nav": { "signOut": "Logg ut" },
-  "Language": { "label": "Språk" },
+  "Nav": {
+    "signOut": "Logg ut"
+  },
+  "ConnectGithub": {
+    "title": "Koble til GitHub-kontoen din",
+    "subtitle": "For å gjennomgå pull requests, koble til GitHub-kontoen din. Calytrix ber bare om lesetilgang til repositoriene og pull requestene dine.",
+    "button": "Koble til GitHub"
+  },
+  "Language": {
+    "label": "Språk"
+  },
   "Dashboard": {
     "title": "Dine repositories",
     "subtitle": "Velg et repository for å gjennomgå pull requestene.",
@@ -43,7 +53,12 @@
     "whyItMatters": "Hvorfor dette betyr noe",
     "suggestedFix": "Foreslått løsning"
   },
-  "Severity": { "CRITICAL": "Kritisk", "HIGH": "Høy", "MEDIUM": "Middels", "LOW": "Lav" },
+  "Severity": {
+    "CRITICAL": "Kritisk",
+    "HIGH": "Høy",
+    "MEDIUM": "Middels",
+    "LOW": "Lav"
+  },
   "Category": {
     "BUG": "Feil",
     "SECURITY": "Sikkerhet",
@@ -51,7 +66,11 @@
     "CODE_QUALITY": "Kodekvalitet",
     "MISSING_TESTS": "Manglende tester"
   },
-  "State": { "open": "åpen", "merged": "sammenslått", "closed": "lukket" },
+  "State": {
+    "open": "åpen",
+    "merged": "sammenslått",
+    "closed": "lukket"
+  },
   "Errors": {
     "title": "Noe gikk galt",
     "UNAUTHORIZED": "Du må logge inn for å gjøre dette.",

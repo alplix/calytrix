@@ -10,10 +10,20 @@
     "categoryCodeQuality": "Koodin laatu",
     "categoryMissingTests": "Puuttuvat testit",
     "footerTagline": "Calytrix tarkistaa pull requestien diffit Clauden avulla. Se ei koskaan suorita koodiasi.",
-    "footerCredit": "Kehittänyt Alperen Yavuz"
+    "footerCredit": "Kehittänyt Alperen Yavuz",
+    "signInAthena": "Kirjaudu Athena-tunnuksella"
   },
-  "Nav": { "signOut": "Kirjaudu ulos" },
-  "Language": { "label": "Kieli" },
+  "Nav": {
+    "signOut": "Kirjaudu ulos"
+  },
+  "ConnectGithub": {
+    "title": "Yhdistä GitHub-tili",
+    "subtitle": "Tarkastellaksesi pull requesteja, yhdistä GitHub-tilisi. Calytrix pyytää vain lukuoikeuden repositorioihisi ja pull requesteihisi.",
+    "button": "Yhdistä GitHub"
+  },
+  "Language": {
+    "label": "Kieli"
+  },
   "Dashboard": {
     "title": "Repositoriosi",
     "subtitle": "Valitse repositorio tarkistaaksesi sen pull requestit.",
@@ -43,7 +53,12 @@
     "whyItMatters": "Miksi tällä on väliä",
     "suggestedFix": "Ehdotettu korjaus"
   },
-  "Severity": { "CRITICAL": "Kriittinen", "HIGH": "Korkea", "MEDIUM": "Keskitaso", "LOW": "Matala" },
+  "Severity": {
+    "CRITICAL": "Kriittinen",
+    "HIGH": "Korkea",
+    "MEDIUM": "Keskitaso",
+    "LOW": "Matala"
+  },
   "Category": {
     "BUG": "Bugi",
     "SECURITY": "Tietoturva",
@@ -51,7 +66,11 @@
     "CODE_QUALITY": "Koodin laatu",
     "MISSING_TESTS": "Puuttuvat testit"
   },
-  "State": { "open": "avoin", "merged": "yhdistetty", "closed": "suljettu" },
+  "State": {
+    "open": "avoin",
+    "merged": "yhdistetty",
+    "closed": "suljettu"
+  },
   "Errors": {
     "title": "Jokin meni pieleen",
     "UNAUTHORIZED": "Sinun täytyy kirjautua sisään tehdäksesi tämän.",

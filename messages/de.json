@@ -10,10 +10,20 @@
     "categoryCodeQuality": "Codequalität",
     "categoryMissingTests": "Fehlende Tests",
     "footerTagline": "Calytrix prüft Pull-Request-Diffs mit Claude. Ihr Code wird niemals ausgeführt.",
-    "footerCredit": "Entwickelt von Alperen Yavuz"
+    "footerCredit": "Entwickelt von Alperen Yavuz",
+    "signInAthena": "Mit Athena anmelden"
   },
-  "Nav": { "signOut": "Abmelden" },
-  "Language": { "label": "Sprache" },
+  "Nav": {
+    "signOut": "Abmelden"
+  },
+  "ConnectGithub": {
+    "title": "GitHub-Konto verbinden",
+    "subtitle": "Um Pull Requests zu überprüfen, verbinde dein GitHub-Konto. Calytrix fordert nur Lesezugriff auf deine Repositories und Pull Requests an.",
+    "button": "GitHub verbinden"
+  },
+  "Language": {
+    "label": "Sprache"
+  },
   "Dashboard": {
     "title": "Ihre Repositories",
     "subtitle": "Wählen Sie ein Repository, um dessen Pull Requests zu prüfen.",
@@ -43,7 +53,12 @@
     "whyItMatters": "Warum das wichtig ist",
     "suggestedFix": "Vorgeschlagene Lösung"
   },
-  "Severity": { "CRITICAL": "Kritisch", "HIGH": "Hoch", "MEDIUM": "Mittel", "LOW": "Niedrig" },
+  "Severity": {
+    "CRITICAL": "Kritisch",
+    "HIGH": "Hoch",
+    "MEDIUM": "Mittel",
+    "LOW": "Niedrig"
+  },
   "Category": {
     "BUG": "Bug",
     "SECURITY": "Sicherheit",
@@ -51,7 +66,11 @@
     "CODE_QUALITY": "Codequalität",
     "MISSING_TESTS": "Fehlende Tests"
   },
-  "State": { "open": "offen", "merged": "gemergt", "closed": "geschlossen" },
+  "State": {
+    "open": "offen",
+    "merged": "gemergt",
+    "closed": "geschlossen"
+  },
   "Errors": {
     "title": "Etwas ist schiefgelaufen",
     "UNAUTHORIZED": "Sie müssen sich anmelden, um das zu tun.",

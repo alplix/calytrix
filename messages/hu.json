@@ -10,10 +10,20 @@
     "categoryCodeQuality": "Kódminőség",
     "categoryMissingTests": "Hiányzó tesztek",
     "footerTagline": "A Calytrix a Claude segítségével ellenőrzi a pull requestek diffjeit. Sosem futtatja a kódját.",
-    "footerCredit": "Készítette: Alperen Yavuz"
+    "footerCredit": "Készítette: Alperen Yavuz",
+    "signInAthena": "Bejelentkezés Athena fiókkal"
   },
-  "Nav": { "signOut": "Kijelentkezés" },
-  "Language": { "label": "Nyelv" },
+  "Nav": {
+    "signOut": "Kijelentkezés"
+  },
+  "ConnectGithub": {
+    "title": "GitHub-fiók összekapcsolása",
+    "subtitle": "A pull requestek ellenőrzéséhez kapcsold össze GitHub-fiókodat. A Calytrix csak olvasási hozzáférést kér a repókhoz és pull requestekhez.",
+    "button": "GitHub összekapcsolása"
+  },
+  "Language": {
+    "label": "Nyelv"
+  },
   "Dashboard": {
     "title": "Repository-i",
     "subtitle": "Válasszon egy repository-t a pull requestjeinek ellenőrzéséhez.",
@@ -43,7 +53,12 @@
     "whyItMatters": "Miért fontos",
     "suggestedFix": "Javasolt megoldás"
   },
-  "Severity": { "CRITICAL": "Kritikus", "HIGH": "Magas", "MEDIUM": "Közepes", "LOW": "Alacsony" },
+  "Severity": {
+    "CRITICAL": "Kritikus",
+    "HIGH": "Magas",
+    "MEDIUM": "Közepes",
+    "LOW": "Alacsony"
+  },
   "Category": {
     "BUG": "Hiba",
     "SECURITY": "Biztonság",
@@ -51,7 +66,11 @@
     "CODE_QUALITY": "Kódminőség",
     "MISSING_TESTS": "Hiányzó tesztek"
   },
-  "State": { "open": "nyitott", "merged": "egyesített", "closed": "lezárt" },
+  "State": {
+    "open": "nyitott",
+    "merged": "egyesített",
+    "closed": "lezárt"
+  },
   "Errors": {
     "title": "Hiba történt",
     "UNAUTHORIZED": "Ehhez be kell jelentkeznie.",

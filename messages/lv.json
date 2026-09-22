@@ -10,10 +10,20 @@
     "categoryCodeQuality": "Koda kvalitāte",
     "categoryMissingTests": "Trūkstoši testi",
     "footerTagline": "Calytrix pārskata pull request izmaiņas ar Claude. Tas nekad neizpilda jūsu kodu.",
-    "footerCredit": "Izstrādājis Alperen Yavuz"
+    "footerCredit": "Izstrādājis Alperen Yavuz",
+    "signInAthena": "Pierakstīties ar Athena"
   },
-  "Nav": { "signOut": "Izrakstīties" },
-  "Language": { "label": "Valoda" },
+  "Nav": {
+    "signOut": "Izrakstīties"
+  },
+  "ConnectGithub": {
+    "title": "Savieno savu GitHub kontu",
+    "subtitle": "Lai pārskatītu pull request pieprasījumus, savieno savu GitHub kontu. Calytrix pieprasa tikai lasīšanas piekļuvi taviem repozitorijiem un pull request pieprasījumiem.",
+    "button": "Savienot GitHub"
+  },
+  "Language": {
+    "label": "Valoda"
+  },
   "Dashboard": {
     "title": "Jūsu repozitoriji",
     "subtitle": "Izvēlieties repozitoriju, lai pārskatītu tā pull requestus.",
@@ -43,7 +53,12 @@
     "whyItMatters": "Kāpēc tas ir svarīgi",
     "suggestedFix": "Ieteiktais risinājums"
   },
-  "Severity": { "CRITICAL": "Kritiska", "HIGH": "Augsta", "MEDIUM": "Vidēja", "LOW": "Zema" },
+  "Severity": {
+    "CRITICAL": "Kritiska",
+    "HIGH": "Augsta",
+    "MEDIUM": "Vidēja",
+    "LOW": "Zema"
+  },
   "Category": {
     "BUG": "Kļūda",
     "SECURITY": "Drošība",
@@ -51,7 +66,11 @@
     "CODE_QUALITY": "Koda kvalitāte",
     "MISSING_TESTS": "Trūkstoši testi"
   },
-  "State": { "open": "atvērts", "merged": "apvienots", "closed": "aizvērts" },
+  "State": {
+    "open": "atvērts",
+    "merged": "apvienots",
+    "closed": "aizvērts"
+  },
   "Errors": {
     "title": "Kaut kas nogāja greizi",
     "UNAUTHORIZED": "Lai to izdarītu, jums jāpiesakās.",

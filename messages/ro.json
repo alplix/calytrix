@@ -10,10 +10,20 @@
     "categoryCodeQuality": "Calitatea codului",
     "categoryMissingTests": "Teste lipsă",
     "footerTagline": "Calytrix analizează diff-urile pull request-urilor cu Claude. Nu îți execută niciodată codul.",
-    "footerCredit": "Realizat de Alperen Yavuz"
+    "footerCredit": "Realizat de Alperen Yavuz",
+    "signInAthena": "Conectare cu Athena"
   },
-  "Nav": { "signOut": "Deconectare" },
-  "Language": { "label": "Limbă" },
+  "Nav": {
+    "signOut": "Deconectare"
+  },
+  "ConnectGithub": {
+    "title": "Conectează-ți contul GitHub",
+    "subtitle": "Pentru a revizui pull request-uri, conectează-ți contul GitHub. Calytrix solicită doar acces de citire la depozitele și pull request-urile tale.",
+    "button": "Conectează GitHub"
+  },
+  "Language": {
+    "label": "Limbă"
+  },
   "Dashboard": {
     "title": "Repository-urile tale",
     "subtitle": "Alege un repository pentru a-i analiza pull request-urile.",
@@ -43,7 +53,12 @@
     "whyItMatters": "De ce contează",
     "suggestedFix": "Soluție sugerată"
   },
-  "Severity": { "CRITICAL": "Critică", "HIGH": "Ridicată", "MEDIUM": "Medie", "LOW": "Scăzută" },
+  "Severity": {
+    "CRITICAL": "Critică",
+    "HIGH": "Ridicată",
+    "MEDIUM": "Medie",
+    "LOW": "Scăzută"
+  },
   "Category": {
     "BUG": "Bug",
     "SECURITY": "Securitate",
@@ -51,7 +66,11 @@
     "CODE_QUALITY": "Calitatea codului",
     "MISSING_TESTS": "Teste lipsă"
   },
-  "State": { "open": "deschis", "merged": "integrat", "closed": "închis" },
+  "State": {
+    "open": "deschis",
+    "merged": "integrat",
+    "closed": "închis"
+  },
   "Errors": {
     "title": "Ceva nu a mers bine",
     "UNAUTHORIZED": "Trebuie să fii autentificat pentru asta.",

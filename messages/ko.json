@@ -10,10 +10,20 @@
     "categoryCodeQuality": "코드 품질",
     "categoryMissingTests": "누락된 테스트",
     "footerTagline": "Calytrix는 Claude를 사용하여 풀 리퀘스트의 diff를 검토합니다. 코드를 직접 실행하지 않습니다.",
-    "footerCredit": "Alperen Yavuz 제작"
+    "footerCredit": "Alperen Yavuz 제작",
+    "signInAthena": "Athena로 로그인"
   },
-  "Nav": { "signOut": "로그아웃" },
-  "Language": { "label": "언어" },
+  "Nav": {
+    "signOut": "로그아웃"
+  },
+  "ConnectGithub": {
+    "title": "GitHub 계정 연결",
+    "subtitle": "풀 리퀘스트를 검토하려면 GitHub 계정을 연결하세요. Calytrix는 저장소와 풀 리퀘스트에 대한 읽기 전용 액세스만 요청합니다.",
+    "button": "GitHub 연결"
+  },
+  "Language": {
+    "label": "언어"
+  },
   "Dashboard": {
     "title": "내 저장소",
     "subtitle": "풀 리퀘스트를 검토할 저장소를 선택하세요.",
@@ -43,7 +53,12 @@
     "whyItMatters": "중요한 이유",
     "suggestedFix": "제안된 수정 방법"
   },
-  "Severity": { "CRITICAL": "치명적", "HIGH": "높음", "MEDIUM": "보통", "LOW": "낮음" },
+  "Severity": {
+    "CRITICAL": "치명적",
+    "HIGH": "높음",
+    "MEDIUM": "보통",
+    "LOW": "낮음"
+  },
   "Category": {
     "BUG": "버그",
     "SECURITY": "보안",
@@ -51,7 +66,11 @@
     "CODE_QUALITY": "코드 품질",
     "MISSING_TESTS": "누락된 테스트"
   },
-  "State": { "open": "열림", "merged": "병합됨", "closed": "닫힘" },
+  "State": {
+    "open": "열림",
+    "merged": "병합됨",
+    "closed": "닫힘"
+  },
   "Errors": {
     "title": "문제가 발생했습니다",
     "UNAUTHORIZED": "이 작업을 수행하려면 로그인이 필요합니다.",
